@@ -1,0 +1,109 @@
+@font-face
+{
+	font-family: Encabezado;
+	src: url(../fonts/EraserRegular.ttf);
+}
+
+@font-face
+{
+	font-family: Handwrite;
+	src: url(../fonts/Note_this.ttf);
+}
+
+
+
+.twitter {
+	bottom: 3px;
+	left: 3px;
+	position: absolute;
+}
+
+.license {
+	bottom: 3px;
+	right: 3px;
+	position: absolute;
+	width: 250px;
+	text-align: center;
+	font-size: 60%;
+}
+
+body .progressbar {
+	width: 200px;
+	position: absolute;
+	top: 3px;
+	right: 3px;
+	bottom: inherit;
+	left: inherit;
+}
+
+body .progressbar div {
+	background: rgba(255, 173, 0, 0.4);
+}
+
+.geocat-logo img {
+	max-width: 250px:
+}
+
+body {
+	background: white;
+}
+
+h3, h4, h5, h6, h7 {
+	font-family: HandWrite;
+	color: black;
+}
+
+h1, h2 {
+	font-family: Encabezado;
+	color: black;
+}
+
+h1 {
+	font-size: 120%;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h2 {
+	font-size: 110%;
+	text-align: center;
+}
+
+h3 {
+	font-size: 105%;
+	text-align: center;
+}
+
+article.step.active {
+	background-color: rgba(0, 163, 216, 0.28);
+	box-shadow: 6px 6px 5px #888888;
+}
+
+article.step.future {
+	opacity: 0.8;
+}
+
+article.step {
+	padding: 15%;
+	font-size: 36px;
+}
+
+article.step > * {
+	padding: 3%;
+}
+
+article.step.past {
+	opacity: 0.4;
+}
+
+article.step div.indice.general {
+	height: 600px;
+}
+
+.center-every {
+	margin: auto;
+}
+
+div.indice ul li {
+	font-family: HandWrite;
+}
