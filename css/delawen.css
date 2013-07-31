@@ -96,6 +96,10 @@ article.step.past {
 	opacity: 0.4;
 }
 
+article.step.future div.sorpresa, article.step.past div.sorpresa {
+	opacity: 0;
+}
+
 article.step div.indice.general {
 	height: 600px;
 }
@@ -106,4 +110,20 @@ article.step div.indice.general {
 
 div.indice ul li {
 	font-family: HandWrite;
+}
+
+div.contenido li {
+	padding-left: 25px;
+}
+
+@media screen and (max-width: 800px) { 
+	article.step {
+		width: 600px;
+	}
+}
+
+@media screen and (max-width: 600px) { 
+	article.step {
+		width: 300px;
+	}
 }

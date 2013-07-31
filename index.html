@@ -33,7 +33,7 @@
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
 
 <div id="impress">
-    <article class="step" data-x="-2000" data-y="500">
+    <article class="step" data-x="3000" data-y="-1000">
     	<div class="center-every">
 	      <h1>GeoNetwork Workshop</h1>
 	      <h2>How to easily build your own UI</h2>
@@ -51,14 +51,40 @@
 
     <article class="step" data-x="0" data-y="-400">
 	<div class="indice">
-		<h3>Why this?</h3>
+		<h3>Brief Introduction</h3>
 	</div>
     </article>
     
     <article class="step" data-x="1200" data-y="0">
+	<div class="center-every">
+	        <p>First of all:</p>
+	        <p>Does somebody here need an introduction to GeoNetwork?</p>
+	        <p>Or can we <a href="#/architecture-overview">move forward?</a></p>
+	</div>
+    </article>
+    
+    <article class="step" data-x="1200" data-y="1000">
 	<div class="contenido">
-		<h3>Why this?</h3>
-	        <p>Because GeoNetwork rocks!</p>
+		<p>Introduction to GeoNetwork</p>
+		<p>TODO</p>
+	</div>
+    </article>
+    
+    <article class="step" id="architecture-overview" data-x="1200" data-y="2000">
+	<div class="contenido">
+		<div style="float:left">
+		        <img src="images/architecture-overview.png"/>
+		</div>
+		<div style="float:right;padding-top: 6%;">
+		        <p>Widgets:</p>
+		        <ul>
+		        	<li>Metadata Catalog Search</li>
+		        	<li>TagCloud</li>
+		        	<li>Latest added</li>
+		        	<li>Metadata Editor</li>
+		        	<li>...</li>
+		        </ul>
+	        </div>
 	</div>
     </article>
     
@@ -76,8 +102,46 @@
     
     <article class="step" data-x="2400" data-y="0">
 	<div class="contenido">
-		<h3>New HTML5 UI for GeoNetwork</h3>
-	        <p>Because GeoNetwork rocks!</p>
+	        <p>Easiest way</p>
+	        <p>Full Metadata Catalog (full geoNetwork)</p>
+	        <p>No need to program, just CSS</p>
+	        
+	        <a href="http://newgui.geocat.net/geonetwork/srv/eng/search">
+	        	<img style="width:100%" src="images/newgui.png"/>
+	        </a>
+	</div>
+    </article>
+    
+    
+    <article class="step" data-x="2400" data-y="1000">
+	<div class="contenido">
+	        <p>First: change colors</p>
+	        <p><strong>Colors.css</strong></p>
+	</div>
+    </article>
+    
+    <article class="step" data-x="2400" data-y="2000">
+	<div class="contenido">
+	        <p>Change logo</p>
+	        <p>main.css:200 #logo</p>
+	        <p>or replace file images/banner_logo.png</p>
+	</div>
+    </article>
+    
+    <article class="step" data-x="2400" data-y="3000">
+	<div class="contenido">
+	        <p>Change header and footer</p>
+	        <p>main.css:81 #footer</p>
+	        <p>main.css:193 #header</p>
+	        <p>or replace file images/map_header.png</p>
+	</div>
+    </article>
+    
+    <article class="step" data-x="2400" data-y="4000">
+	<div class="contenido">
+	        <p>Change tabs</p>
+	        <p>search.xsl</p>
+	        <p>We can add more tabs</p>
 	</div>
     </article>
     
@@ -94,8 +158,9 @@
     
     <article class="step" data-x="3600" data-y="0">
 	<div class="contenido">
-		<h3>How to customize or create a simple geoNetwork UI using widgets</h3>
-	        <p>Because GeoNetwork rocks!</p>
+	        <p>Average Diffulty</p>
+	        <p>Partial Metadata Catalog</p>
+	        <p>You choose your own widgets</p>
 	</div>
     </article>
     
@@ -113,8 +178,9 @@
     
     <article class="step" data-x="4800" data-y="0">
 	<div class="contenido">
-		<h3>How to add a widget to a non-geoNetwork webpage</h3>
-	        <p>Because GeoNetwork rocks!</p>
+	        <p>Advanced Diffulty</p>
+	        <p>Mixed with your own webpage</p>
+	        <p>May be incompatible with your own libraries</p>
 	</div>
     </article>
     
@@ -126,20 +192,192 @@
     
     <article class="step" data-x="0" data-y="400">
 	<div class="indice">
-		<h3>(5/5) Use CSW/search api to search from an external website using geoNetwork widgets</h3>
+		<h3>Use CSW/search api to search from an external website</h3>
 	</div>
     </article>
     
     <article class="step" data-x="6000" data-y="0">
 	<div class="contenido">
-		<h3>(5/5) Use CSW/search api to search from an external website using geoNetwork widgets</h3>
-	        <p>Because GeoNetwork rocks!</p>
+	        <p>Very Advanced Diffulty</p>
+	        <p>Don't use GeoNetwork's javascript, just server-side APIs</p>
+	        <p>Your own UI from scratch</p>
+	        <p>Full compatibility with your own libraries</p>
+	</div>
+    </article>
+    
+    <article class="step" data-x="6000" data-y="1000">
+	<div class="contenido">
+	        <p>Two options:</p>
+	        <ul>
+	        	<li>CSW (OGC)</li>
+	        	<li>Q service (GN)</li>
+	        </ul>
 	</div>
     </article>
 
+    <article class="step" data-x="6000" data-y="1000">
+	<div class="contenido">
+	        <p>&nbsp;</p>
+	        <ul>
+	        	<li>&nbsp;</li>
+	        	<li>Q service (GN)</li>
+	        </ul>
+	</div>
+    </article>
 
+    <article class="step" data-x="6000" data-y="2000">
+	<div class="contenido">
+	        <p>http://..../geonetwork/srv/eng/q</p>
+	        <p>Works without parameters</p>
+	        <img style="max-height:70%" src="images/qservice.png"/>
+	</div>
+    </article>
+
+    <article class="step" data-x="6000" data-y="3000">
+	<div class="contenido">
+	        <p>Response</p>
+	        <ul>
+	        	<li>Summary
+	        		<ul>
+	        			<li>attribute Results Count</li> 
+	        			<li>Facets Fields (Filters)</li>
+	        		</ul>
+	        	</li>
+	        	<li>Metadata*
+	        		<ul>
+	        			<li>Title</li>
+	        			<li>Abstract</li> 
+	        			<li>Constraints</li>
+	        			<li>...</li>
+	        		</ul>
+	        	</li>
+	        </ul>
+	</div>
+    </article>
+
+    <article class="step" data-x="6000" data-y="4000">
+	<div class="contenido">
+	        <p>Parameters</p>
+	        <ul>
+	        	<li><strong>from</strong> Useful for pagination</li>
+	        	<li><strong>to</strong> Only retrieve a number of results</li>
+	        	<li><strong>themekey</strong> KeyWord</li>
+	        	<li><strong>any_OR_geokeyword</strong> Free text search (allows *)</strong></li>
+	        	<li>...</li>
+	        </ul>
+	</div>
+    </article>
     
-  <article class="step" data-x="-1200" data-y="0">
+    <article class="step" data-x="6000" data-y="5000">
+	<div class="contenido">
+	        <p>We need</p>
+	        <ul>
+	        	<li>UI to create the request</li>
+	        	<li>UI to process the response</li>
+	        </ul>
+	</div>
+    </article>
+    
+    <article class="step" data-x="6000" data-y="5000">
+	<div class="contenido">
+	        <p>&nbsp;</p>
+	        <ul>
+	        	<li>UI to create the request</li>
+	        	<li>&nbsp;</li>
+	        </ul>
+	</div>
+    </article>
+    
+    <article class="step" data-x="7000" data-y="1000">
+	<div class="contenido">
+	        <p>Create a simple form</p>
+	        &lt;form id="qservice" style="display:inline-block;width:300px">
+	        </br>
+			&lt;div>Keyword:&lt;input type="text" name="themekey"/>&lt;/div>
+	        </br>
+			&lt;div>Free text:&lt;input type="text" name="any_OR_geokeyword"/>&lt;/div>
+	        </br>
+			&lt;div>From: &lt;input type="number" name="from"/>&lt;/div>
+	        </br>
+			&lt;div>To:&lt;input type="number" pattern="[0-9]{3}" name="to"/>&lt;/div>
+	        </br>
+			&lt;div>&lt;input type="button" id="submit" value="Search"/>&lt;/div>
+	        </br>
+		&lt;/form>
+	        
+	</div>
+    </article>    
+    
+    <article class="step" data-x="7000" data-y="2000">
+	<div class="contenido">
+	<div style="font-size:80%">
+	<p>And use jQuery for the Ajax request:</p>
+	&lt;script>
+	        </br>
+		$("input#submit").click(function() {
+	        </br>
+			if($('form#qservice')[0].checkValidity()) { 
+	        </br>
+				$.ajax({
+	        </br>
+			        url: 'http://localhost:8080/geonetwork/srv/eng/q',
+	        </br>
+			        type: 'get',
+	        </br>
+				crossDomain: true,
+	        </br>
+			        data: $('form#qservice').serialize(),
+	        </br>
+			        success: function(data) {
+	        </br>
+			                   //TODO
+	        </br>
+			                 }});}});
+	        </br>
+	&lt;/script>
+	        
+	</div></div>
+    </article>
+    
+    <article class="step" data-x="7000" data-y="2000">
+	<div class="sorpresa">
+		<p>We will have a problem with the proxy here</p>
+		<p style="color:red;">Origin null is not allowed by Access-Control-Allow-Origin.</p>
+	</div>
+    </article>
+    
+    <article class="step" data-x="7000" data-y="3000">
+	<div class="sorpresa">
+		<p>Final steps</p>
+		<p>&lt;style>
+			:invalid { color: red; }
+		&lt;/style></p>
+		<p>And we can <a target="example" href="example.html">try it</a></p>
+	</div>
+    </article>
+    
+    <article class="step" data-x="6000" data-y="5000">
+	<div class="contenido">
+	        <p>&nbsp;</p>
+	        <ul>
+	        	<li>&nbsp;</li>
+	        	<li>UI to process the response</li>
+	        </ul>
+	</div>
+    </article>
+    
+    <article class="step" data-x="8000" data-y="1000">
+	<div class="contenido">
+	        <p>process response</p>
+	</div>
+    </article>
+    
+    <article class="step" data-x="0" data-y="0" data-scale="1.5">
+	<div class="indice general">
+	</div>
+    </article>
+    
+  <article class="step" data-x="7000" data-y="0">
      <div class="center-every">
         <h2>Finish!</h2>
         <h3>Any questions?</h3>
@@ -148,6 +386,9 @@
 	<p style="text-align:center"><img src="images/lotsofcats.png"/></p>
 	<p style="text-align:center"><a href="http://geocat.net">@geocat_bv</a></p>
      </div>
+  </article>
+    
+  <article class="step" data-x="2000" data-y="2000" data-scale="9">
   </article>
 
 <script src="js/impress-progress.js"></script>

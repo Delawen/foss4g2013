@@ -1,0 +1,35 @@
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+<style>
+	:invalid { color: red; }
+</style>
+</head>
+<body>
+	<form id="qservice" style="display:inline-block;width:300px">
+		<div>Keyword:<input type="text" name="themekey"/></div>
+		<div>Free text:<input type="text" name="any_OR_geokeyword"/></div>
+		<div>From: <input type="number" name="from"/></div>
+		<div>To:<input type="number" pattern="[0-9]{3}" name="to"/></div>
+		<div><input type="button" id="submit" value="Search"/></div>
+	</form>
+	
+	<script>
+		$("input#submit").click(function() {
+			if($('form#qservice')[0].checkValidity()) { 
+				$.ajax({
+			        url: 'http://newgui.geocat.net/geonetwork/srv/eng/q',
+			        type: 'get',
+				crossDomain: true,
+			        data: $('form#qservice').serialize(),
+			        success: function(data) {
+			                   //TODO
+			                   console.log(data);
+			                 }
+	    			});
+	    		}
+		});
+	</script>
+</body>
+</html>
