@@ -34,7 +34,8 @@
 		<div id="tagcloud">
 		</div>
 		<div id="search">
-			SEARCH
+			<div id="form"/>
+			<div id="result-panel"/>
 		</div>
 	</section>
 	<footer>
@@ -70,6 +71,66 @@
                         '</div>', 
                     '</tpl>')
         });
+        
+        // Multi select keyword
+            var themekeyStore = new GeoNetwork.data.OpenSearchSuggestionStore({
+                url : catalogue.services.opensearchSuggest,
+                rootId : 1,
+                baseParams : {field : 'keyword'}
+            });
+            
+        var themekeyField = new Ext.ux.form.SuperBoxSelect({
+                hideLabel : false,
+                minChars : 0,
+                queryParam : 'q',
+                hideTrigger : false,
+                id : 'E_themekey',
+                name : 'E_themekey',
+                store : themekeyStore,
+                valueField : 'value',
+                displayField : 'value',
+                valueDelimiter : ' or ',
+                fieldLabel : OpenLayers.i18n('keyword')
+            });
+        
+        //Create form to search
+        new GeoNetwork.SearchFormPanel({
+                id : 'search-form',
+                renderTo : 'form',
+                anchor:'100%',
+                searchCb : function() {
+                    catalogue.search('search-form',
+                            null, null, 1, true);
+                },
+                items : [themekeyField]
+            });
+        
+        //Create resultsView
+         catalogue.resultsView = new GeoNetwork.MetadataResultsView({
+                catalogue : catalogue,
+                tpl : new Ext.XTemplate(
+			    '<ul>',
+			        '<tpl for=".">',
+			            '<li class="md md-simple" title="{abstract}">',
+			                '<table><tr><td style="width:30px;">', 
+			                '</td><td id="{uuid}">',
+			                GeoNetwork.Templates.TITLE,
+			                '<tpl if="subject">',
+			                    '<span class="subject"><tpl for="subject">',
+			                        '{value}{[xindex==xcount?"":", "]}',
+			                    '</tpl></span>',
+			                '</tpl>',
+			                '</td></tr></table>',
+			            '</li>',
+			        '</tpl>',
+			    '</ul>'
+			)
+		});
+
+            var resultPanel = new Ext.Panel({
+                items : catalogue.resultsView,
+                renderTo : 'result-panel'
+            });
         
 </script>
 
