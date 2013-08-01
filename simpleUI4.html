@@ -1,0 +1,76 @@
+<html>
+<head>
+	<title>This is my customized GeoNetwork</title>
+	<link rel="stylesheet" type="text/css" href="simpleUI.css" />
+	
+      <link rel="stylesheet" type="text/css" href="/geonetwork/apps/js/OpenLayers/theme/default/style.css">
+      <link rel="stylesheet" type="text/css" href="/geonetwork/apps/js/ext/resources/css/ext-all.css">
+      <link rel="stylesheet" type="text/css" href="/geonetwork/apps/js/ext/resources/css/xtheme-gray.css">
+      <link rel="stylesheet" type="text/css" href="/geonetwork/apps/js/ext-ux/Rating/rating.css">
+      <link rel="stylesheet" type="text/css" href="/geonetwork/apps/js/ext-ux/SuperBoxSelect/superboxselect.css">
+      <link rel="stylesheet" type="text/css" href="/geonetwork/apps/js/ext-ux/LightBox/lightbox.css">
+      <link rel="stylesheet" type="text/css" href="/geonetwork/apps/js/ext-ux/FileUploadField/file-upload.css">
+      <link rel="stylesheet" type="text/css" href="/geonetwork/apps/js/ext-ux/MultiselectItemSelector-3.0/Multiselect.css">
+      
+      
+      <script type="text/javascript" src="/geonetwork/apps/js/ext/adapter/ext/ext-base.js"></script>
+      <script type="text/javascript" src="/geonetwork/apps/js/ext/ext-all-debug.js"></script>
+      <script type="text/javascript" src="/geonetwork/apps/html5ui/js/App-mini.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="logo">
+			<img src="images/nif1.png">
+		</div>
+		<div class="title">
+			My Own Metadata Catalog
+		</div>
+		<div class="foss4g">
+			Workshop for FOSS4G 2013
+		</div>
+	</header>
+	<section>
+		<div id="tagcloud">
+		</div>
+		<div id="search">
+			SEARCH
+		</div>
+	</section>
+	<footer>
+		based on GeoNetwork
+	</footer>
+</body>
+
+<script type="text/javascript">
+
+	//First set up catalogue, a global variable that connects to
+	//the instance of GeoNetwork to ask for data
+	var catalogue = new GeoNetwork.Catalogue(
+                    {
+                        hostUrl : 'http://localhost:8080/geonetwork',
+                        metadataStore : GeoNetwork.Settings.mdStore ? new GeoNetwork.Settings.mdStore()
+                                : new GeoNetwork.data.MetadataResultsStore(),
+                        metadataCSWStore : GeoNetwork.data
+                                .MetadataCSWResultsStore(),
+                        summaryStore : GeoNetwork.data.MetadataSummaryStore(),
+                    });
+	
+        
+        
+        //Create the tagcloud itself
+	var tagCloudView = new GeoNetwork.TagCloudView({
+            catalogue : catalogue,
+            query : 'fast=true&summaryOnly=true&from=1&to=4',
+            renderTo : 'tagcloud',
+            tpl: new Ext.XTemplate(
+                    '<tpl for=".">', 
+                        '<div class="tag-cloud">',
+                           '<span>{value} ({count})</span>', 
+                        '</div>', 
+                    '</tpl>')
+        });
+        
+</script>
+
+</html>
