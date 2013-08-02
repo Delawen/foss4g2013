@@ -34,9 +34,9 @@
 		<div id="tagcloud">
 		</div>
 		<div id="search">
-			<div id="form"/>
-			<div id="result-panel"/>
-		</div>
+			<div id="form"></div>
+			<div id="result-panel"></div>
+		</div>	
 	</section>
 	<footer>
 		based on GeoNetwork
@@ -112,8 +112,7 @@
 			    '<ul>',
 			        '<tpl for=".">',
 			            '<li class="md md-simple" title="{abstract}">',
-			                '<table><tr><td style="width:30px;">', 
-			                '</td><td id="{uuid}">',
+			                '<table><td id="{uuid}">',
 			                GeoNetwork.Templates.TITLE,
 			                '<tpl if="subject">',
 			                    '<span class="subject"><tpl for="subject">',
