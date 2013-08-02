@@ -1,7 +1,7 @@
 <html>
 <head>
 	<title>This is my customized GeoNetwork</title>
-	<link rel="stylesheet" type="text/css" href="simpleUI/simpleUI.css" />
+	<link rel="stylesheet" type="text/css" href="example.css" />
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<style>	:invalid { color: red; } </style>
 </head>
@@ -27,6 +27,8 @@
 			<div><input type="button" id="submit" value="Search"/></div>
 		</form>
 	</section>
+	<section id="result-view">
+	</section>
 	<footer>
 		compliant with GeoNetwork
 	</footer>
@@ -35,13 +37,27 @@
 		$("input#submit").click(function() {
 			if($('form#qservice')[0].checkValidity()) { 
 				$.ajax({
-			        url: 'http://newgui.geocat.net/geonetwork/srv/eng/q',
+			        url: '/geonetwork/srv/eng/q?fast=index',
 			        type: 'get',
 				crossDomain: true,
 			        data: $('form#qservice').serialize(),
 			        success: function(data) {
-			                   //TODO
-			                   console.log(data);
+			                   var section = $("#result-view");
+			                   
+			                   //Remove previous data
+			                   section.empty();
+			                   
+			                   var mds = $(data.getElementsByTagName("metadata"));
+			                   for(var i=0; i < mds.length; i++) {
+			                   	var e = mds[i];
+			                   	var title = $(e.getElementsByTagName("title")).text();
+			                   	var abstract = $(e.getElementsByTagName("abstract")).text();
+			                   	section.append(
+			                   		"<div>" + 
+			                   			"<strong>" + title + "</strong>" + 
+			                   			"</br>" + abstract + 
+			                   		"</div>");
+			                   }
 			                 }
 	    			});
 	    		}

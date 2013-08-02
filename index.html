@@ -195,12 +195,12 @@
 	<div class="contenido">
 		<p>Common steps:</p>
 	        <ul>
-	        	<li><a target="example" href="simpleUI1.html">Create html structure</a></li>
-	        	<li><a target="example"  href="simpleUI2.html">Add imports</a></li>
+	        	<li><a target="example" href="simpleUI/simpleUI1.html">Create html structure</a></li>
+	        	<li><a target="example"  href="simpleUI/simpleUI2.html">Add imports</a></li>
 	        	<li>Add widgets
 		        	<ul>
-			        	<li><a target="example"  href="simpleUI3.html">Add tagcloud</a></li>
-			        	<li><a target="example"  href="simpleUI4.html">Add search fields</a></li>
+			        	<li><a target="example"  href="simpleUI/simpleUI3.html">Add tagcloud</a></li>
+			        	<li><a target="example"  href="simpleUI/simpleUI4.html">Add search fields</a></li>
 			        </ul>
 		        </li>
 	        	<li><a target="example"  href="http://localhost:8080/geonetwork/simpleUI4.html">Full Example</a></li>
@@ -208,16 +208,7 @@
 	        <p style="font-size:80%">We can use the web-client/src/main/resources/ folder to place our files</p>
 	        <p style="font-size:60%">Note: If no results are shown maybe it is because our local GN does not have any record</p>
 	</div>
-    </article>
-    
-    
-    <article class="step" data-x="3600" data-y="2000">
-	<div class="sorpresa">
-		<p>We may have a problem with the proxy if using another GeoNetwork</p>
-		<p style="color:red;">Origin is not allowed by Access-Control-Allow-Origin.</p>
-	</div>
-    </article>
-    
+    </article>    
     
     <article class="step" data-x="0" data-y="0" data-scale="1.5">
 	<div class="indice general">
@@ -235,7 +226,24 @@
 	<div class="contenido">
 	        <p>Advanced Diffulty</p>
 	        <p>Mixed with your own webpage</p>
+	        <p>Use a vanilla geoNetwork</p>
+	</div>
+    </article>
+    
+    
+    <article class="step" data-x="4800" data-y="1000">
+	<div class="contenido">
+		<p>Problem if using another port</p>
+		<p style="color:red;">Origin is not allowed by Access-Control-Allow-Origin.</p>
+		<p>Probably need a proxy</p>
+	</div>
+    </article>
+    
+    <article class="step" data-x="4800" data-y="2000">
+	<div class="contenido">
 	        <p>May be incompatible with your own libraries</p>
+	        <p>We use <strong>ExtJS 3.4</strong></p>
+	        <p>Compatible with JQuery</strong></p>
 	</div>
     </article>
     
@@ -319,6 +327,7 @@
 	        	<li><strong>themekey</strong> KeyWord</li>
 	        	<li><strong>any_OR_geokeyword</strong> Free text search (allows *)</strong></li>
 	        	<li>...</li>
+	        	<li>fast=index</li>
 	        </ul>
 	</div>
     </article>
@@ -423,7 +432,12 @@
     
     <article class="step" data-x="8000" data-y="1000">
 	<div class="contenido">
-	        <p>process response</p>
+	        <ul>
+	        	<li>Placement for result list</li>
+	        	<li>Process Response</li>
+	        	<li>Add records to result list</li>
+	        </ul>
+		<p>See <a target="example" href="example1.html">full code</a>.</p>
 	</div>
     </article>
     
