@@ -1,0 +1,183 @@
+<html>
+<head>
+	<title>This is my customized GeoNetwork</title>
+	<link rel="stylesheet" type="text/css" href="simpleUI.css" />
+	
+      <link rel="stylesheet" type="text/css" href="/geonetwork/apps/js/OpenLayers/theme/default/style.css">
+      <link rel="stylesheet" type="text/css" href="/geonetwork/apps/js/ext/resources/css/ext-all.css">
+      <link rel="stylesheet" type="text/css" href="/geonetwork/apps/js/ext/resources/css/xtheme-gray.css">
+      <link rel="stylesheet" type="text/css" href="/geonetwork/apps/js/ext-ux/Rating/rating.css">
+      <link rel="stylesheet" type="text/css" href="/geonetwork/apps/js/ext-ux/SuperBoxSelect/superboxselect.css">
+      <link rel="stylesheet" type="text/css" href="/geonetwork/apps/js/ext-ux/LightBox/lightbox.css">
+      <link rel="stylesheet" type="text/css" href="/geonetwork/apps/js/ext-ux/FileUploadField/file-upload.css">
+      <link rel="stylesheet" type="text/css" href="/geonetwork/apps/js/ext-ux/MultiselectItemSelector-3.0/Multiselect.css">
+      
+      
+      <script type="text/javascript" src="/geonetwork/apps/js/ext/adapter/ext/ext-base.js"></script>
+      <script type="text/javascript" src="/geonetwork/apps/js/ext/ext-all-debug.js"></script>
+      <script type="text/javascript" src="/geonetwork/apps/html5ui/js/App-mini.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="logo">
+			<img src="../images/nif1.png">
+		</div>
+		<div class="title">
+			My Own Metadata Catalog
+		</div>
+		<div class="foss4g">
+			Workshop for FOSS4G 2013
+		</div>
+	</header>
+	<section>
+		<div id="tagcloud">
+		</div>
+		<div id="facets-panel-div"></div>
+		<div id="search">
+			<div id="form"></div>
+			<div id="map" style="width:400px;height:300px"></div>
+			<div id="bread-crumb-div"></div>
+			<div id="result-panel"></div>
+		</div>	
+	</section>
+	<footer>
+		based on GeoNetwork
+	</footer>
+</body>
+
+<script type="text/javascript">
+
+	//First set up catalogue, a global variable that connects to
+	//the instance of GeoNetwork to ask for data
+	var catalogue = new GeoNetwork.Catalogue(
+                    {
+                        hostUrl : 'http://localhost:8080/geonetwork',
+                        metadataStore : GeoNetwork.Settings.mdStore ? new GeoNetwork.Settings.mdStore()
+                                : new GeoNetwork.data.MetadataResultsStore(),
+                        metadataCSWStore : GeoNetwork.data
+                                .MetadataCSWResultsStore(),
+                        summaryStore : GeoNetwork.data.MetadataSummaryStore(),
+                    });
+	
+        
+        
+        //Create the tagcloud itself
+	var tagCloudView = new GeoNetwork.TagCloudView({
+            catalogue : catalogue,
+            query : 'fast=true&summaryOnly=true&from=1&to=4',
+            renderTo : 'tagcloud',
+            tpl: new Ext.XTemplate(
+                    '<tpl for=".">', 
+                        '<div class="tag-cloud">',
+                           '<span>{value} ({count})</span>', 
+                        '</div>', 
+                    '</tpl>')
+        });
+        
+        // Multi select keyword
+            var themekeyStore = new GeoNetwork.data.OpenSearchSuggestionStore({
+                url : catalogue.services.opensearchSuggest,
+                rootId : 1,
+                baseParams : {field : 'keyword'}
+            });
+            
+        var themekeyField = new Ext.ux.form.SuperBoxSelect({
+                hideLabel : false,
+                minChars : 0,
+                queryParam : 'q',
+                hideTrigger : false,
+                id : 'E_themekey',
+                name : 'E_themekey',
+                store : themekeyStore,
+                valueField : 'value',
+                displayField : 'value',
+                valueDelimiter : ' or ',
+                fieldLabel : OpenLayers.i18n('keyword')
+            });
+        
+        //for facets
+        
+        loadResults  = function(response, query) {
+            	Ext.getCmp('facets-panel').refresh(response);
+            }
+        
+        //Create form to search
+        new GeoNetwork.SearchFormPanel({
+                id : 'search-form',
+                renderTo : 'form',
+                anchor:'100%',
+                searchCb : function() {
+                    catalogue.search('search-form',
+                            loadResults, null, 1, true);
+                },
+                items : [themekeyField]
+            });
+        
+        //Create resultsView
+         catalogue.resultsView = new GeoNetwork.MetadataResultsView({
+                catalogue : catalogue,
+                tpl : new Ext.XTemplate(
+			    '<ul>',
+			        '<tpl for=".">',
+			            '<li class="md md-simple" title="{abstract}">',
+			                '<table><td id="{uuid}">',
+			                GeoNetwork.Templates.TITLE,
+			                '<tpl if="subject">',
+			                    '<span class="subject"><tpl for="subject">',
+			                        '{value}{[xindex==xcount?"":", "]}',
+			                    '</tpl></span>',
+			                '</tpl>',
+			                '</td></tr></table>',
+			            '</li>',
+			        '</tpl>',
+			    '</ul>'
+			)
+		});
+
+            var resultPanel = new Ext.Panel({
+                items : catalogue.resultsView,
+                renderTo : 'result-panel'
+            });
+            
+            
+            //Add a map to search results
+             var layer =  new OpenLayers.Layer.XYZ(
+		            "OpenStreetMap", 
+		            [
+		                "http://otile1.mqcdn.com/tiles/1.0.0/map/${z}/${x}/${y}.png",
+		                "http://otile2.mqcdn.com/tiles/1.0.0/map/${z}/${x}/${y}.png",
+		                "http://otile3.mqcdn.com/tiles/1.0.0/map/${z}/${x}/${y}.png",
+		                "http://otile4.mqcdn.com/tiles/1.0.0/map/${z}/${x}/${y}.png"
+		            ]
+		        );
+             map = new OpenLayers.Map({
+		        div: "map",
+        		controls: []
+        	});
+             
+             map.addLayer(layer);
+             map.zoomToExtent(layer.getMaxExtent());
+             
+            catalogue.resultsView.addMap(map, true);   
+            
+            //Add facet filters    
+             var breadcrumb = new Ext.Panel({
+                id : 'bread-crumb',
+                renderTo : 'bread-crumb-div',
+                layout : 'table',
+                defaultType : 'button'
+            });
+            var facetsPanel = new GeoNetwork.FacetsPanel(
+                    {
+                        id : 'facets-panel',
+                        renderTo : 'facets-panel-div',
+                        searchForm : Ext.getCmp('search-form'),
+                        breadcrumb : breadcrumb,
+                        maxDisplayedItems : 3,
+                        facetListConfig : []
+                    }); 
+                    
+</script>
+
+</html>
