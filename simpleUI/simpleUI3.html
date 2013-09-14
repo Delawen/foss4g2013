@@ -3,19 +3,19 @@
 	<title>This is my customized GeoNetwork</title>
 	<link rel="stylesheet" type="text/css" href="simpleUI.css" />
 	
-      <link rel="stylesheet" type="text/css" href="/geonetwork/apps/js/OpenLayers/theme/default/style.css">
-      <link rel="stylesheet" type="text/css" href="/geonetwork/apps/js/ext/resources/css/ext-all.css">
-      <link rel="stylesheet" type="text/css" href="/geonetwork/apps/js/ext/resources/css/xtheme-gray.css">
-      <link rel="stylesheet" type="text/css" href="/geonetwork/apps/js/ext-ux/Rating/rating.css">
-      <link rel="stylesheet" type="text/css" href="/geonetwork/apps/js/ext-ux/SuperBoxSelect/superboxselect.css">
-      <link rel="stylesheet" type="text/css" href="/geonetwork/apps/js/ext-ux/LightBox/lightbox.css">
-      <link rel="stylesheet" type="text/css" href="/geonetwork/apps/js/ext-ux/FileUploadField/file-upload.css">
-      <link rel="stylesheet" type="text/css" href="/geonetwork/apps/js/ext-ux/MultiselectItemSelector-3.0/Multiselect.css">
+      <link rel="stylesheet" type="text/css" href="../fake_geonetwork/apps/js/OpenLayers/theme/default/style.css">
+      <link rel="stylesheet" type="text/css" href="../fake_geonetwork/apps/js/ext/resources/css/ext-all.css">
+      <link rel="stylesheet" type="text/css" href="../fake_geonetwork/apps/js/ext/resources/css/xtheme-gray.css">
+      <link rel="stylesheet" type="text/css" href="../fake_geonetwork/apps/js/ext-ux/Rating/rating.css">
+      <link rel="stylesheet" type="text/css" href="../fake_geonetwork/apps/js/ext-ux/SuperBoxSelect/superboxselect.css">
+      <link rel="stylesheet" type="text/css" href="../fake_geonetwork/apps/js/ext-ux/LightBox/lightbox.css">
+      <link rel="stylesheet" type="text/css" href="../fake_geonetwork/apps/js/ext-ux/FileUploadField/file-upload.css">
+      <link rel="stylesheet" type="text/css" href="../fake_geonetwork/apps/js/ext-ux/MultiselectItemSelector-3.0/Multiselect.css">
       
       
-      <script type="text/javascript" src="/geonetwork/apps/js/ext/adapter/ext/ext-base.js"></script>
-      <script type="text/javascript" src="/geonetwork/apps/js/ext/ext-all-debug.js"></script>
-      <script type="text/javascript" src="/geonetwork/apps/html5ui/js/App-mini.js"></script>
+      <script type="text/javascript" src="../fake_geonetwork/apps/js/ext/adapter/ext/ext-base.js"></script>
+      <script type="text/javascript" src="../fake_geonetwork/apps/js/ext/ext-all-debug.js"></script>
+      <script type="text/javascript" src="../fake_geonetwork/apps/html5ui/js/App-mini.js"></script>
 </head>
 
 <body>
@@ -48,7 +48,7 @@
 	//the instance of GeoNetwork to ask for data
 	var catalogue = new GeoNetwork.Catalogue(
                     {
-                        hostUrl : 'http://localhost:8080/geonetwork',
+                        hostUrl : '../fake_geonetwork/example3',
                         metadataStore : GeoNetwork.Settings.mdStore ? new GeoNetwork.Settings.mdStore()
                                 : new GeoNetwork.data.MetadataResultsStore(),
                         metadataCSWStore : GeoNetwork.data
