@@ -1,0 +1,1956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response from="1" to="32" selected="0">
+  <summary count="32" type="local" hitsusedforsummary="32">
+    <keywords>
+      <keyword count="25" name="environment" indexKey="keyword" />
+      <keyword count="23" name="Protected sites" indexKey="keyword" />
+      <keyword count="13" name="Biodiversity" indexKey="keyword" />
+      <keyword count="13" name="biota" indexKey="keyword" />
+      <keyword count="12" name="Nature conservation" indexKey="keyword" />
+      <keyword count="5" name="Forestry" indexKey="keyword" />
+      <keyword count="4" name="CADW" indexKey="keyword" />
+      <keyword count="4" name="Forest Management" indexKey="keyword" />
+      <keyword count="4" name="Felling" indexKey="keyword" />
+      <keyword count="4" name="infoMapAccessService" indexKey="keyword" />
+    </keywords>
+  </summary>
+  <metadata>
+    <title>Protected sites: Special Protection Areas - GIS dataset</title>
+    <popularity>278</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <Constraints>copyright</Constraints>
+    <Constraints>otherRestrictions</Constraints>
+    <link>Protected_sites:spa|Spacial Protection Areas of Wales. Data produced by NRW (Natural Resources Wales)|../../srv/en/google.kml?uuid=5e4b8e21-4a62-44f4-8ae3-8cfc2b217f35&amp;layers=Protected_sites:spa|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>Protected_sites:spa|Spacial Protection Areas of Wales. Data produced by NRW (Natural Resources Wales)|http://inspire.wales.gov.uk/maps/Protected_sites/wms?|OGC:WMS-1.3.0-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>||http://inspire.wales.gov.uk/maps/Protected_sites/wms?request=getCapabilities||text/plain</link>
+    <link>||http://inspire.wales.gov.uk/metadata/srv/en/main.home?uuid=5e4b8e21-4a62-44f4-8ae3-8cfc2b217f35||text/plain</link>
+    <responsibleParty>originator|resource|Natural Resources Wales (NRW)|</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|Spatial Evidence Officer|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>This is a GIS dataset containing spatial objects such as points, lines, and polygons. It contains the digital boundaries of all SPAs in Wales. The EC Birds Directive of 1979 requires member states to establish Special Protection Areas to conserve the habitats of two categories of birds:- i) Species which are rare or vulnerable, of which there are forty-eight in the UK. ii) Some migratory species which visit our shores regularly. SPAs in Wales are identified by CCW, in conjunction with the UK Joint Nature Conservation Committee, and designated by the First Minister for the Welsh Assembly Government. They are also protected through being SSSIs. The 1994 Conservation Regulations also provide a means of protecting such areas at sea. SPAs together with SACs will contribute to a European Union network of protected sites to be known as 'Natura 2000' (N2K sites).</abstract>
+    <keyword>Biodiversity</keyword>
+    <keyword>Birds</keyword>
+    <keyword>Nature conservation</keyword>
+    <keyword>Protected sites</keyword>
+    <keyword>biota</keyword>
+    <keyword>environment</keyword>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=5e4b8e21-4a62-44f4-8ae3-8cfc2b217f35&amp;fname=CCW_spa.png</image>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=5e4b8e21-4a62-44f4-8ae3-8cfc2b217f35&amp;fname=CCW_spa_s.png</image>
+    <datasetLang>eng</datasetLang>
+    <Constraints>CCGC/CCW 2008 and Crown copyright. All rights reserved. Third parties seeking to re-use this dataset require a CCW licence. It allows reproduction, dissemination and re-use in any format or medium but only for non-commercial purposes, according to the terms and conditions of the Licence. Those seeking commercial re-use require a commercial licence available from the OS.</Constraints>
+    <geoBox>-6.380730215352005|51.079376269720505|-2.3737563270110202|53.63343421372765</geoBox>
+    <isHarvested>n</isHarvested>
+    <language>eng</language>
+    <defaultTitle>Protected sites: Special Protection Areas - GIS dataset</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>16</id>
+      <uuid>5e4b8e21-4a62-44f4-8ae3-8cfc2b217f35</uuid>
+      <schema>iso19139</schema>
+      <createDate>2012-11-29T16:29:46</createDate>
+      <changeDate>2013-04-30T16:36:25</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Felling Licence Applications</title>
+    <popularity>46</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <Constraints>otherRestrictions</Constraints>
+    <link>Protected_sites:forestry_wales_fla|Felling Licence Applications Wales. Data produced by NRW (Natural Resources Wales)|../../srv/en/google.kml?uuid=fbc17202-bdf2-477d-bbe4-1e2a27a82037&amp;layers=Protected_sites:forestry_wales_fla|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>Protected_sites:forestry_wales_fla|Felling Licence Applications Wales. Data produced by NRW (Natural Resources Wales)|http://inspire.wales.gov.uk/maps/Protected_sites/wms?|OGC:WMS-1.3.0-http-get-map|application/vnd.ogc.wms_xml</link>
+    <responsibleParty>distributor|resource|Forestry Commission|</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|Forestry Commission|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <valid_schematron-rules-iso>1</valid_schematron-rules-iso>
+    <isTemplate>n</isTemplate>
+    <valid>1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <Constraints>Copyright</Constraints>
+    <Constraints>License</Constraints>
+    <abstract>Anyone wishing to fell trees must ensure that a licence or permission under a grant
+scheme has been issued by the Forestry Commission before any felling is carried out
+or that one of the exceptions apply.
+You normally need to get permission from the Forestry Commission to fell growing
+trees. This is usually given in a Felling Licence or an approval under a Dedication
+Scheme. In certain circumstances you may also need special permission from
+another organisation for any proposed felling. This sometimes applies even if you do
+not need a Felling Licence.
+Everyone involved in the felling of trees, whether doing the work or by
+engaging others, eg. the owner, agent, timber merchant or contractor, must
+ensure that a licence or approval under a Dedication Scheme has been issued
+before any felling is carried out or that one of the exceptions apply. They must
+also ensure that the work is carried out in accordance with the terms of a
+Forestry Commission permission. If there is no licence or other valid
+permission, or if the wrong trees are felled, anyone involved can be
+prosecuted.
+Do not begin felling until the Forestry Commission have issued a licence or other
+permission. Any felling carried out without either a licence or other permission is an
+offence, unless it is covered by an exception.
+Full details are available in the Forestry Commission's booklet 'Tree Felling - Getting
+Permission'.</abstract>
+    <valid_schematron-rules-geonetwork>1</valid_schematron-rules-geonetwork>
+    <keyword>Felling</keyword>
+    <keyword>Forest Management</keyword>
+    <keyword>clear felling</keyword>
+    <keyword>environment</keyword>
+    <keyword>farming</keyword>
+    <keyword>illegal</keyword>
+    <keyword>planning</keyword>
+    <keyword>planningCadastre</keyword>
+    <keyword>restocking</keyword>
+    <keyword>thinning</keyword>
+    <keyword>woodland</keyword>
+    <Constraints>no conditions apply</Constraints>
+    <geoBox>-5.670244|51.374153|-2.649851|53.435805</geoBox>
+    <isHarvested>n</isHarvested>
+    <valid_xsd>1</valid_xsd>
+    <language>eng</language>
+    <defaultTitle>Felling Licence Applications</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>37</id>
+      <uuid>fbc17202-bdf2-477d-bbe4-1e2a27a82037</uuid>
+      <schema>iso19139</schema>
+      <createDate>2013-05-15T13:32:09</createDate>
+      <changeDate>2013-05-15T16:48:00</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Protected sites: Sites of Special Scientific Interest - GIS dataset</title>
+    <popularity>397</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <Constraints>copyright</Constraints>
+    <Constraints>otherRestrictions</Constraints>
+    <link>Protected_sites:sssi|Sites of Special Scientific Interest Wales. Data produced by NRW (Natural Resources Wales)|../../srv/en/google.kml?uuid=ce4a0400-4408-4ce3-b054-86ead39ab087&amp;layers=Protected_sites:sssi|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>Protected_sites:sssi|Sites of Special Scientific Interest Wales. Data produced by NRW (Natural Resources Wales)|http://inspire.wales.gov.uk/maps/Protected_sites/wms?|OGC:WMS-1.3.0-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>||http://inspire.wales.gov.uk/maps/Protected_sites/wms?request=getCapabilites||text/plain</link>
+    <link>||http://inspire.wales.gov.uk/metadata/srv/en/main.home?uuid=ce4a0400-4408-4ce3-b054-86ead39ab087||text/plain</link>
+    <responsibleParty>originator|resource|Natural Resources Wales (NRW)|</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|Spatial Evidence Officer|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <valid_schematron-rules-iso>0</valid_schematron-rules-iso>
+    <isTemplate>n</isTemplate>
+    <valid>0</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>This is a GIS dataset containing spatial objects such as points, lines, and polygons. It contains the digital boundaries of SSSIs in Wales. SSSI cover a wide range of habitats from small fens, bogs and riverside meadows to sand dunes, woodlands and vast tracks of uplands. Most are in private ownership, although some are owned and managed by local wildlife trusts, or other voluntary conservation bodies. Notification of an SSSI under the Wildlife and Countryside Act 1981 has since been amended by the Countryside and Rights of Way Act 2001, which brought about numerous changes in the way SSSI are notified managed and protected. In order to ensure consistent, favourable long-term management of these sites, CCW with landowners have prepared management plans for all SSSI in Wales. Local planning authorities are required to consult CCW before allowing any development to proceed that may affect an SSSI. Water, gas and electricity companies must also do the same.</abstract>
+    <valid_schematron-rules-geonetwork>1</valid_schematron-rules-geonetwork>
+    <keyword>Biodiversity</keyword>
+    <keyword>Nature conservation</keyword>
+    <keyword>Protected sites</keyword>
+    <keyword>Sites of Special Scientific Interest</keyword>
+    <keyword>biota</keyword>
+    <keyword>environment</keyword>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=ce4a0400-4408-4ce3-b054-86ead39ab087&amp;fname=CCW_SSSI.png</image>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=ce4a0400-4408-4ce3-b054-86ead39ab087&amp;fname=CCW_SSSI_s.png</image>
+    <datasetLang>eng</datasetLang>
+    <Constraints>CCGC/CCW 2008 and Crown copyright. All rights reserved. Third parties seeking to re-use this dataset require a CCW licence. It allows reproduction, dissemination and re-use in any format or medium but only for non-commercial purposes, according to the terms and conditions of the Licence. Those seeking commercial re-use require a commercial licence available from the OS.</Constraints>
+    <geoBox>-5.916090809153051|51.24219800205815|-2.555109538448172|53.646093871859144</geoBox>
+    <isHarvested>n</isHarvested>
+    <valid_xsd>0</valid_xsd>
+    <language>eng</language>
+    <defaultTitle>Protected sites: Sites of Special Scientific Interest - GIS dataset</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>17</id>
+      <uuid>ce4a0400-4408-4ce3-b054-86ead39ab087</uuid>
+      <schema>iso19139</schema>
+      <createDate>2012-11-29T16:29:46</createDate>
+      <changeDate>2013-07-30T12:34:14</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Protected sites: Heritage Coast - GIS dataset</title>
+    <popularity>318</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <Constraints>copyright</Constraints>
+    <Constraints>otherRestrictions</Constraints>
+    <link>Protected_sites:heritage_coast|Heritage Coast of Wales. Data produced by NRW (Natural Resources Wales)|../../srv/en/google.kml?uuid=ff940020-1aa0-4abb-b9fc-c05c98eee863&amp;layers=Protected_sites:heritage_coast|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>Protected_sites:heritage_coast|Heritage Coast of Wales. Data produced by NRW (Natural Resources Wales)|http://inspire.wales.gov.uk/maps/Protected_sites/wms?|OGC:WMS-1.3.0-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>||http://inspire.wales.gov.uk/maps/Protected_sites/wms?request=getCapabilities||text/plain</link>
+    <link>||http://inspire.wales.gov.uk/metadata/srv/en/main.home?uuid=ff940020-1aa0-4abb-b9fc-c05c98eee863||text/plain</link>
+    <responsibleParty>originator|resource|Natural Resources Wales (NRW)|</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|Spatial Evidence Officer|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>This is a GIS dataset containing spatial objects such as points, lines, and polygons. It contains digitised boundaries of heritage coasts in Wales. Heritage Coasts occupy about a third of the Welsh coastline, that is 500kms (300miles), and they were set up more than 20 years ago to protect our coastlines from insensitive developments. Most are defined simply by the coastline between two named points, however some have clearly defined inland boundaries. Their status carries no legal protection, but planning authorities must take the designation into account when making decisions on development. Management of Heritage Coasts is the remit of the local authority and is generally carried out by Heritage Coast Officers with some practical tasks done by volunteers.</abstract>
+    <keyword>Biodiversity</keyword>
+    <keyword>Coasts</keyword>
+    <keyword>Heritage</keyword>
+    <keyword>Nature conservation</keyword>
+    <keyword>Protected sites</keyword>
+    <keyword>biota</keyword>
+    <keyword>environment</keyword>
+    <keyword>oceans</keyword>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=ff940020-1aa0-4abb-b9fc-c05c98eee863&amp;fname=CCW_HC.png</image>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=ff940020-1aa0-4abb-b9fc-c05c98eee863&amp;fname=CCW_HC_s.png</image>
+    <datasetLang>eng</datasetLang>
+    <Constraints>CCGC/CCW 2008 and Crown copyright. All rights reserved. Third parties seeking to re-use this dataset require a CCW licence. It allows reproduction, dissemination and re-use in any format or medium but only for non-commercial purposes, according to the terms and conditions of the Licence. Those seeking commercial re-use require a commercial licence available from the OS.</Constraints>
+    <geoBox>-6.413970475464332|51.16614239999977|-2.3584352788701186|53.68095639938635</geoBox>
+    <isHarvested>n</isHarvested>
+    <language>eng</language>
+    <defaultTitle>Protected sites: Heritage Coast - GIS dataset</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>9</id>
+      <uuid>ff940020-1aa0-4abb-b9fc-c05c98eee863</uuid>
+      <schema>iso19139</schema>
+      <createDate>2012-11-29T16:29:45</createDate>
+      <changeDate>2013-04-30T17:16:08</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Protected sites: Areas of Outstanding Natural Beauty - GIS dataset</title>
+    <popularity>60</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <Constraints>copyright</Constraints>
+    <Constraints>otherRestrictions</Constraints>
+    <link>Protected_sites:aonb|Welsh Areas of Outstanding Natural Beauty. Data produced by the NRW (Natural Resources Wales).|../../srv/en/google.kml?uuid=b976ec1e-2ab0-4e9b-aec0-4882ce6d7b0d&amp;layers=Protected_sites:aonb|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>Protected_sites:aonb|Welsh Areas of Outstanding Natural Beauty. Data produced by the NRW (Natural Resources Wales).|http://inspire.wales.gov.uk/maps/Protected_sites/wms?|OGC:WMS-1.3.0-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>||http://inspire.wales.gov.uk/maps/Protected_sites/wms?request=getCapabilities||text/plain</link>
+    <link>||http://inspire.wales.gov.uk/metadata/srv/en/main.home?uuid=b976ec1e-2ab0-4e9b-aec0-4882ce6d7b0d||text/plain</link>
+    <responsibleParty>originator|resource|Natural Resources Wales|</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|Spatial Evidence Officer|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <valid_schematron-rules-iso>0</valid_schematron-rules-iso>
+    <isTemplate>n</isTemplate>
+    <valid>0</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>This is a GIS dataset containing spatial objects such as points, lines, and polygons. It contains the digital boundaries of all AONBs in Wales. AONBs are established under the Countryside Act of 1949, but unlike National Parks, AONBs are not created specifically for opportunities for recreation. However, recreation within AONBs is acceptable if it is consistent with the conservation and enhancement of natural beauty and the needs of agriculture, forestry and other uses.</abstract>
+    <valid_schematron-rules-geonetwork>1</valid_schematron-rules-geonetwork>
+    <keyword>Areas of Outstanding Natural Beauty</keyword>
+    <keyword>Biodiversity</keyword>
+    <keyword>Nature conservation</keyword>
+    <keyword>Protected sites</keyword>
+    <keyword>biota</keyword>
+    <keyword>environment</keyword>
+    <keyword>geoscientificInformation</keyword>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=b976ec1e-2ab0-4e9b-aec0-4882ce6d7b0d&amp;fname=Protected_sites-aonb_s.png</image>
+    <datasetLang>eng</datasetLang>
+    <Constraints>CCGC/CCW 2010 and Crown copyright. All rights reserved. Third parties seeking to re-use this dataset require a CCW licence. It allows reproduction, dissemination and re-use in any format or medium but only for non-commercial purposes, according to the terms and conditions of the Licence. Those seeking commercial re-use require a commercial licence available from the OS.</Constraints>
+    <geoBox>-6.461887900801661|51.26460087614226|-2.4823558537528108|53.55206864227454</geoBox>
+    <isHarvested>n</isHarvested>
+    <valid_xsd>0</valid_xsd>
+    <language>eng</language>
+    <defaultTitle>Protected sites: Areas of Outstanding Natural Beauty - GIS dataset</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>5</id>
+      <uuid>b976ec1e-2ab0-4e9b-aec0-4882ce6d7b0d</uuid>
+      <schema>iso19139</schema>
+      <createDate>2012-11-29T16:29:44</createDate>
+      <changeDate>2013-04-30T13:12:58</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Forestry CROW Dedicated Land</title>
+    <popularity>42</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <Constraints>otherRestrictions</Constraints>
+    <link>Protected_sites:forestry_wales_crow_access_land|Forestry CROW Access Land. Data produced by Natural Resources Wales (NRW)|../../srv/en/google.kml?uuid=0a3f3a1c-0b0e-4f62-90e5-a33fad1200a6&amp;layers=Protected_sites:forestry_wales_crow_access_land|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>Protected_sites:forestry_wales_crow_access_land|Forestry CROW Access Land. Data produced by Natural Resources Wales (NRW)|http://inspire.wales.gov.uk/maps/Protected_sites/wms?|OGC:WMS-1.3.0-http-get-map|application/vnd.ogc.wms_xml</link>
+    <responsibleParty>distributor|resource|Natural Resources Wales|</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|Natural Resources Wales|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <Constraints>Copyright</Constraints>
+    <Constraints>License</Constraints>
+    <abstract>Dataset showing the area of freehold land managed by Natural Resources Wales that has been dedicated under Section 16 of the Countryside and Rights of Way Act 2000 (CROW)</abstract>
+    <keyword>Felling</keyword>
+    <keyword>Forest Management</keyword>
+    <keyword>boundaries</keyword>
+    <keyword>clear felling</keyword>
+    <keyword>illegal</keyword>
+    <keyword>planning</keyword>
+    <keyword>planningCadastre</keyword>
+    <keyword>restocking</keyword>
+    <keyword>thinning</keyword>
+    <keyword>woodland</keyword>
+    <Constraints>Use limitation dependent upon licence</Constraints>
+    <geoBox>-8.17|49.9553|1.749|60.8433</geoBox>
+    <isHarvested>n</isHarvested>
+    <language>eng</language>
+    <defaultTitle>Forestry CROW Dedicated Land</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>44</id>
+      <uuid>0a3f3a1c-0b0e-4f62-90e5-a33fad1200a6</uuid>
+      <schema>iso19139</schema>
+      <createDate>2013-05-15T16:03:54</createDate>
+      <changeDate>2013-05-15T16:16:36</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>WOODLAND GRANT SCHEME 2 (Wales)</title>
+    <popularity>420</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <link>Protected_sites:wales_wgs2|Woodland Grant Scheme 2 (Wales)|../../srv/en/google.kml?uuid=ef61d656-b80c-4416-8e5c-df29ba391d85&amp;layers=Protected_sites:wales_wgs2|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>Protected_sites:wales_wgs2|Woodland Grant Scheme 2 (Wales)|http://inspire.wales.gov.uk/maps/Protected_sites/wms?|OGC:WMS-1.3.0-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>||http://inspire.wales.gov.uk/maps/Protected_sites/wms?request=getCapabilities||text/plain</link>
+    <link>||http://inspire.wales.gov.uk/metadata?uuid=ef61d656-b80c-4416-8e5c-df29ba391d85||text/plain</link>
+    <responsibleParty>pointOfContact|metadata|Welsh Government|</responsibleParty>
+    <responsibleParty>pointOfContact|resource|Natural Resources Wales|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>Description:
+This dataset is an archived dataset and has not been updated since June 2008
+The Woodland Grant Scheme (WGS) provides incentives for people to create and
+manage woodlands
+on sites all over Great Britain. The Forestry Commission pays grants for establishing
+and looking after woodlands and forests.
+To qualify for grant the applicant must meet the standards of
+environmental protection and practice set out in the
+Forestry Commission's guidelines.
+WGS2 operated between June 1991 and September 1994.
+Contents of the dataset The dataset identifies areas approved
+by grant type within each WGS Scheme. The list below provides
+a summary of grant type captured:
+SCHEME BOUNDARY -The boundary of the area(s) included within the scheme.
+NEW PLANTING APPROVED - Areas within the contract where new planting has
+been approved under NP, NB, NS, NC, NK, NQ and/or NU.
+NEW NATURAL REGENERATION APPROVED - Areas within the contract where
+
+new natural regeneration has been approved under NN, NL and/or NZ.
+REPLANTING/REGENERATION/MANAGEMENT - Areas within the contract where
+replanting, restocking by natural regeneration or management has been approved
+under RP, RN, RC RG, RQ, EN, MG and/or SM.
+COMMUNITY WOODLAND CONTRIBUTION - Areas within the contract approved for
+Community Woodland Contribution. CWC is available to encourage the creation of
+new woodlands near towns and cities which can be used for informal recreation.
+Abreviations used above: NP New planting NB New planting with better land
+supplement NS New planting accepted into the 1988 set-aside scheme NC New
+planting of coppice NK New planting of coppice with better land supplement NQ New
+planting short rotation coppice NU New planting short rotation coppice with better land
+supplement NN New planting by natural regeneration NL New planting by natural
+regeneration with better land supp NZ New planting by natural regeneration with setaside
+RP Restocking by replanting RC Restocking with coppice (planting not
+regrowth) RQ Restocking with short rotation coppice (planting not regrowth) RN
+Restocking by natural regeneration EN Restocking by existing natural regeneration
+MG Management grant SM Special management grant
+Dataset Attributes
+Descriptor Description of identified feature
+PropNumber Property number
+PlanNumber Plan number
+PropName Property name
+Plan_Type Type of plan (Management, Establishment, Both)
+Prop_Type Property type (Farm, Recreation, etc)
+Owner_Type Owner type (Business, Personal Occupier, etc)
+Grid_Ref National grid reference
+Local_Auth Council
+CWSPrem Is the scheme eligible for Community Woodland Supplement
+(Y/N)
+Farm_Prem Is the scheme eligible for Farm Woodland Premium Scheme
+(Y/N)
+Cont_Start Date the contract started
+Cont_End Date the contract ends
+Case_Offcr Case Officers name
+Appr_Offcr Approving Officers name
+Cons_Name Conservancy name
+Agent_Name Agents name
+Agent_Prem Agents premises
+Agent_Str Agents street
+Agent_Dist Agents area
+Agent_Town Agents town or city
+Agent_PC Agents post-code
+Agent_Tel Agents telephone number
+Conif_ha Total conifer planting under work type (ha)
+BLeaf_ha Total broadleaf planting under work type (ha)
+Conif_pct Percentage conifer planting under work type
+BLeaf_pct Percentage broadleaf planting under work type
+Conif_unpd Conifer area still to receive 1st Installment payment (ha)
+BLeaf_unpd Broadleaf area still to receive 1st Installment payment (ha)
+Total_Area Total area of work type within the grant scheme
+
+Dataset Information
+Data Lineage
+The spatial element of this dataset has been digitised by CGIS, FCW using
+both Laserscan's LAMPS and ESRI's Arcview software. The textual element
+has been extracted from the WGS Oracle database using Business Objects
+and associated with the polygon data.
+Information is mapped following final approved stage from contract maps
+supplied by the applicants (normally based on 1:2500 or 1:10,000 OS maps).
+Spatial data has been digitised against OS raster backdrops using 1:25,000
+scale between 1997 and 2000, and 1:10,000 scale between 2000 and 2004.
+No Amenments to scheme boundaries or grant aided areas have been made
+Withdrawn This work type has been withdrawn from the case (True/False)
+Please ensure that the following acknowledgement is displayed on any hard copy:
+© Crown copyright and database right 'year'.
+Ordnance Survey Licence number 100021242.</abstract>
+    <keyword>Forestry</keyword>
+    <keyword>Protected sites</keyword>
+    <keyword>WGS2</keyword>
+    <keyword>Woodland Grant Scheme 2</keyword>
+    <keyword>environment</keyword>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=ef61d656-b80c-4416-8e5c-df29ba391d85&amp;fname=FCW_WGS2.png</image>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=ef61d656-b80c-4416-8e5c-df29ba391d85&amp;fname=FCW_WGS2_s.png</image>
+    <datasetLang>eng</datasetLang>
+    <Constraints>Formal Permission required for use</Constraints>
+    <geoBox>-5.892308833776846|51.17038981879137|-2.387589369667748|53.57438282897554</geoBox>
+    <isHarvested>n</isHarvested>
+    <language>eng</language>
+    <defaultTitle>WOODLAND GRANT SCHEME 2 (Wales)</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>24</id>
+      <uuid>ef61d656-b80c-4416-8e5c-df29ba391d85</uuid>
+      <schema>iso19139</schema>
+      <createDate>2012-11-29T16:29:47</createDate>
+      <changeDate>2013-04-30T16:55:01</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Listed Buildings in Wales GIS Point Dataset</title>
+    <popularity>432</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <link>Protected_sites:listed_buildings|Listed Buildings in Wales GIS Point Dataset|../../srv/en/google.kml?uuid=3112bbb3-d948-4398-ae2e-330e8591d282&amp;layers=Protected_sites:listed_buildings|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>Protected_sites:listed_buildings|Listed Buildings in Wales GIS Point Dataset|http://inspire.wales.gov.uk/maps/Protected_sites/wms?|OGC:WMS-1.3.0-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>||http://inspire.wales.gov.uk/maps/Protected_sites/wms?request=getCapabilities||text/plain</link>
+    <link>||http://inspire.wales.gov.uk/metadata?uuid=3112bbb3-d948-4398-ae2e-330e8591d282||text/plain</link>
+    <responsibleParty>pointOfContact|metadata|Welsh Government|</responsibleParty>
+    <responsibleParty>pointOfContact|resource|CADW (The Historic Environment Service of the Welsh Government)|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <valid_schematron-rules-iso>1</valid_schematron-rules-iso>
+    <isTemplate>n</isTemplate>
+    <valid>0</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>The National Assembly for Wales is required by law to compile lists of buildings of special architectural or historic interest. The lists are used to help planning authorities to make decisions with the interests of the historic environment clearly identified. Compilation of the lists is undertaken by Cadw, in the Welsh Assembly Government. 
+
+This dataset represents the geographical location of each building (or groups of buildings) as point data. It should be noted that the curtledges of the designation is not shown (see Use Constraints).</abstract>
+    <valid_schematron-rules-geonetwork>1</valid_schematron-rules-geonetwork>
+    <keyword>CADW</keyword>
+    <keyword>Historic Environment (addition)</keyword>
+    <keyword>Listed Buildings</keyword>
+    <keyword>Protected sites</keyword>
+    <keyword>environment</keyword>
+    <datasetLang>eng</datasetLang>
+    <Constraints>Copyright</Constraints>
+    <geoBox>-8.17167|49.9553|1.74944|60.8433</geoBox>
+    <isHarvested>n</isHarvested>
+    <valid_xsd>0</valid_xsd>
+    <language>eng</language>
+    <defaultTitle>Listed Buildings in Wales GIS Point Dataset</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>2</id>
+      <uuid>3112bbb3-d948-4398-ae2e-330e8591d282</uuid>
+      <schema>iso19139</schema>
+      <createDate>2012-11-29T16:29:43</createDate>
+      <changeDate>2013-03-21T09:43:37</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Welsh Government Transport networks view service.</title>
+    <popularity>218</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <Constraints>otherRestrictions</Constraints>
+    <link>Welsh Government INSPIRE resource.|Further information about this resource is available on the Welsh Government INSPIRE website|http://inspire.wales.gov.uk||text/plain</link>
+    <link>Welsh Government Transport Networks Web Map Service (WMS) 1.3.0|Link to the GetCapabilities request for this service|http://inspire.wales.gov.uk/maps/Transport_networks/wms?request=getCapabilities||text/plain</link>
+    <responsibleParty>pointOfContact|metadata|Welsh Government|</responsibleParty>
+    <responsibleParty>resourceProvider|resource|Geography and Technology|</responsibleParty>
+    <type>service</type>
+    <type>service-view</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>interactiveResources</category>
+    <Constraints>Copyright</Constraints>
+    <abstract>This service contains shape files for transport networks of Wales.</abstract>
+    <keyword>Road</keyword>
+    <keyword>Transport Networks</keyword>
+    <keyword>Transport networks</keyword>
+    <keyword>Trunk Roads</keyword>
+    <keyword>Welsh Government Transport Networks</keyword>
+    <keyword>infoMapAccessService</keyword>
+    <Constraints>other Constraints</Constraints>
+    <serviceType>view</serviceType>
+    <geoBox>-5.7176981737300085|51.298132478480944|-2.5312689691254633|53.481104300683654</geoBox>
+    <isHarvested>n</isHarvested>
+    <language>eng</language>
+    <defaultTitle>Welsh Government Transport networks view service.</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>30</id>
+      <uuid>526eb623-5406-46e0-9579-44fe01a99945</uuid>
+      <schema>iso19139</schema>
+      <createDate>2012-11-29T16:30:48</createDate>
+      <changeDate>2012-11-29T16:30:48</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Protected sites: National Nature Reserves - GIS dataset</title>
+    <popularity>279</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <Constraints>copyright</Constraints>
+    <Constraints>otherRestrictions</Constraints>
+    <link>Protected_sites:nnr|National Nature Reserves of Wales. Data produced by NRW (Natural Resources Wales)|../../srv/en/google.kml?uuid=b85f0e23-1873-47ac-943f-90cc9c430f5a&amp;layers=Protected_sites:nnr|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>Protected_sites:nnr|National Nature Reserves of Wales. Data produced by NRW (Natural Resources Wales)|http://inspire.wales.gov.uk/maps/Protected_sites/wms?|OGC:WMS-1.3.0-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>||http://inspire.wales.gov.uk/maps/Protected_sites/wms?request=getCapabilities||text/plain</link>
+    <link>||http://inspire.wales.gov.uk/metadata/srv/en/main.home?uuid=b85f0e23-1873-47ac-943f-90cc9c430f5a||text/plain</link>
+    <responsibleParty>originator|resource|Natural Resources Wales (NRW)|</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|Spatial Evidence Officer|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>This is a GIS dataset containing spatial objects such as points, lines, and polygons. It contains the digital boundaries of NNRs in Wales. National Nature Reserves represent the very best examples of our wildlife habitats and geological features and can range in size between five hectares to well over 2,000. NNR are declared by CCW under the National Parks and Access to the Countryside Act of 1949, or under the Wildlife and Countryside Act of 1981. They are owned or leased by CCW, or the land is held by an approved body, such as a County Wildlife Trust. Each reserve has a programme of work to manage the site's special features. All of them are also SSSI and may provide places for educational projects, research and management trials. Some reserves require permits to gain access to them.</abstract>
+    <keyword>Biodiversity</keyword>
+    <keyword>Nature conservation</keyword>
+    <keyword>Nature reserves</keyword>
+    <keyword>Protected sites</keyword>
+    <keyword>biota</keyword>
+    <keyword>boundaries</keyword>
+    <keyword>environment</keyword>
+    <datasetLang>eng</datasetLang>
+    <Constraints>CCGC/CCW 2008 and Crown copyright. All rights reserved. Third parties seeking to re-use this dataset require a CCW licence. It allows reproduction, dissemination and re-use in any format or medium but only for non-commercial purposes, according to the terms and conditions of the Licence. Those seeking commercial re-use require a commercial licence available from the OS.</Constraints>
+    <geoBox>-5.779089639409522|51.199103088112594|-2.3638079823156897|53.59980809743732</geoBox>
+    <isHarvested>n</isHarvested>
+    <language>eng</language>
+    <defaultTitle>Protected sites: National Nature Reserves - GIS dataset</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>12</id>
+      <uuid>b85f0e23-1873-47ac-943f-90cc9c430f5a</uuid>
+      <schema>iso19139</schema>
+      <createDate>2012-11-29T16:29:46</createDate>
+      <changeDate>2013-04-30T16:34:32</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>World Heritage Sites in Wales GIS Polygon and Polyline Dataset</title>
+    <popularity>497</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <link>Protected_sites:world_heritage_sites_feb10|UNESCO World Heritage Sites (Wales)|../../srv/en/google.kml?uuid=11edc4ec-5269-40b9-86c8-17201fa4e74e&amp;layers=Protected_sites:world_heritage_sites_feb10|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>Protected_sites:world_heritage_sites_feb10|UNESCO World Heritage Sites (Wales)|http://inspire.wales.gov.uk/maps/Protected_sites/wms?|OGC:WMS-1.3.0-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>||http://inspire.wales.gov.uk/maps/Protected_sites/wms?request=getCapabilities||text/plain</link>
+    <link>||http://inspire.wales.gov.uk/metadata?uuid=11edc4ec-5269-40b9-86c8-17201fa4e74e||text/plain</link>
+    <responsibleParty>pointOfContact|metadata|Welsh Government|</responsibleParty>
+    <responsibleParty>pointOfContact|resource|CADW (The Historic Environment Service of the Welsh Assembly Government)|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <valid_schematron-rules-iso>1</valid_schematron-rules-iso>
+    <isTemplate>n</isTemplate>
+    <valid>0</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>UNESCO (United Nations Educational, Scientific and Cultural Organization) World Heritage Sites are places or buildings of outstanding universal value. UNESCO's World Heritage mission is to encourage countries to ensure the protection of their own natural and cultural heritage. 
+
+Wales has three World Heritage Sites, the Castles and Town Walls of King Edward in Gwynedd, the Blaenavon Industrial Landscape and the Pontcysyllte Aqueduct.
+
+All planning enquiries that may effect a World Heritage Site, its setting or significant view should be directed to Cadw.
+
+The World Heritage Sites dataset comprises 4 ESRI Shapefiles, these are:-
+
+1: World Heritage Sites (WHS)
+2: Essential Setting (ES)
+3: Significant View (SV)
+4: Arcs of View (AV)</abstract>
+    <valid_schematron-rules-geonetwork>1</valid_schematron-rules-geonetwork>
+    <keyword>CADW</keyword>
+    <keyword>Protected sites</keyword>
+    <keyword>World Heritage Sites</keyword>
+    <keyword>environment</keyword>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=11edc4ec-5269-40b9-86c8-17201fa4e74e&amp;fname=Protected_sites-world_heritage_sites_feb10.png</image>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=11edc4ec-5269-40b9-86c8-17201fa4e74e&amp;fname=Protected_sites-world_heritage_sites_feb10_s.png</image>
+    <datasetLang>eng</datasetLang>
+    <Constraints>Copyright</Constraints>
+    <geoBox>-6.349669208373599|50.948649366562954|-1.8959807251206617|53.77117345513605</geoBox>
+    <isHarvested>n</isHarvested>
+    <valid_xsd>0</valid_xsd>
+    <language>eng</language>
+    <defaultTitle>World Heritage Sites in Wales GIS Polygon and Polyline Dataset</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>4</id>
+      <uuid>11edc4ec-5269-40b9-86c8-17201fa4e74e</uuid>
+      <schema>iso19139</schema>
+      <createDate>2012-11-29T16:29:44</createDate>
+      <changeDate>2013-03-21T15:14:25</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Conservation Areas Wales</title>
+    <popularity>407</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <Constraints>otherRestrictions</Constraints>
+    <link>Protected_sites:conservation_areas_wales_region|Conservation Areas Wales|../../srv/en/google.kml?uuid=05ad4364-bde4-4502-be46-f331c6661945&amp;layers=Protected_sites:conservation_areas_wales_region|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>Protected_sites:conservation_areas_wales_region|Conservation Areas Wales|http://inspire.wales.gov.uk/maps/Protected_sites/wms?|OGC:WMS-1.3.0-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>||http://inspire.wales.gov.uk/maps/Protected_sites/wms?request=getCapabilities||text/plain</link>
+    <link>||http://inspire.wales.gov.uk/metadata?uuid=05ad4364-bde4-4502-be46-f331c6661945||text/plain</link>
+    <responsibleParty>distributor|resource|Welsh Governement|</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|Welsh Government|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <Constraints>Copyright</Constraints>
+    <abstract>Boundaries of conservation areas in Wales, to conform with s.70(5) of the Planning (Listed Buildings and Conservation Areas) Act 1990</abstract>
+    <keyword>Species distribution</keyword>
+    <keyword>location</keyword>
+    <datasetLang>eng</datasetLang>
+    <Constraints>CYou may reproduce this dataset free of charge for non-commercial and internal business purposes in any format or medium, provided that you do so accurately, acknowledging both the source and Welsh Governments copyright, and do not use it in a misleading context. To avoid using old information, we recommend that you obtain the latest version from the original source.</Constraints>
+    <geoBox>-5.670829566244527|51.31053329334734|-2.5835818571103593|53.4578633510869</geoBox>
+    <isHarvested>n</isHarvested>
+    <language>eng</language>
+    <defaultTitle>Conservation Areas Wales</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>26</id>
+      <uuid>05ad4364-bde4-4502-be46-f331c6661945</uuid>
+      <schema>iso19139</schema>
+      <createDate>2012-11-29T16:29:47</createDate>
+      <changeDate>2013-04-30T16:51:24</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Welsh Government Natural Risk Zones view service.</title>
+    <popularity>255</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <Constraints>otherRestrictions</Constraints>
+    <link>Welsh Government INSPIRE resource.|Further information about this resource is available on the Welsh Government INSPIRE website|http://inspire.wales.gov.uk||text/plain</link>
+    <link>Welsh Government Natural Risk Zones Web Map Service (WMS) 1.3.0|Link to the GetCapabilities request for this service|http://inspire.wales.gov.uk/maps/Natural_risk_zones/wms?request=getCapabilities||text/plain</link>
+    <responsibleParty>pointOfContact|metadata|Welsh Government|</responsibleParty>
+    <responsibleParty>resourceProvider|resource|Geography and Technology|</responsibleParty>
+    <type>service</type>
+    <type>service-view</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>interactiveResources</category>
+    <Constraints>Copyright</Constraints>
+    <abstract>This service contains shape files for natural risk zones of Wales.</abstract>
+    <keyword>Natural risk zones</keyword>
+    <keyword>Welsh Government Natural Risk Zones</keyword>
+    <keyword>flood zones</keyword>
+    <keyword>infoMapAccessService</keyword>
+    <Constraints>other Constraints</Constraints>
+    <serviceType>view</serviceType>
+    <geoBox>-5.878841197612303|51.2708953916116|-2.468208350651811|53.49927180960987</geoBox>
+    <isHarvested>n</isHarvested>
+    <language>eng</language>
+    <defaultTitle>Welsh Government Natural Risk Zones view service.</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>28</id>
+      <uuid>f4c01319-11f8-4f43-bf73-b3569e177e8b</uuid>
+      <schema>iso19139</schema>
+      <createDate>2012-11-29T16:30:48</createDate>
+      <changeDate>2012-11-29T16:30:48</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Protected sites: Ramsar- Wetlands of International Importance - GIS dataset</title>
+    <popularity>294</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <Constraints>copyright</Constraints>
+    <Constraints>license</Constraints>
+    <Constraints>otherRestrictions</Constraints>
+    <link>Protected_sites:ramsar|RAMSAR Data of Wales. Data produced by NRW (Natural Resources Wales).|../../srv/en/google.kml?uuid=b9d942c7-0597-498b-8363-3969bf0b2b76&amp;layers=Protected_sites:ramsar|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>Protected_sites:ramsar|RAMSAR Data of Wales. Data produced by NRW (Natural Resources Wales).|http://inspire.wales.gov.uk/maps/Protected_sites/wms?|OGC:WMS-1.3.0-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>||http://inspire.wales.gov.uk/maps/Protected_sites/wms?request=getCapabilities||text/plain</link>
+    <link>||http://inspire.wales.gov.uk/metadata/srv/en/main.home?uuid=b9d942c7-0597-498b-8363-3969bf0b2b76||text/plain</link>
+    <responsibleParty>originator|resource|Natural Resources Wales (NRW)|</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|Spatial Evidence Officer|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>This is a GIS dataset containing spatial objects such as points, lines, and polygons. It contains the digital boundaries of Ramsar sites in Wales. In ratifying the Convention in 1976, the UK government accepted a commitment to promote the conservation of internationally important wetland sites within its territories. Wetlands are vital for many types of birds particularly waterfowl and Wales have some prime sites that are essential to the survival of many wetland plants and animals. Wetland sites can be areas of marsh, fen, peatland or open water; natural or artificial; permanent or temporary; with water that is fresh, brackish or salty. They can also include shallow areas of sea. All Ramsar sites are also SSSI. Wetlands of International Importance are identified by CCW, in collaboration with the UK Joint Nature Conservation Committee, and designated by the First Minister for the National Assembly for Wales.</abstract>
+    <keyword>Biodiversity</keyword>
+    <keyword>Nature conservation</keyword>
+    <keyword>Protected sites</keyword>
+    <keyword>Sites of Special Scientific Interest</keyword>
+    <keyword>biota</keyword>
+    <keyword>environment</keyword>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=b9d942c7-0597-498b-8363-3969bf0b2b76&amp;fname=Protected_sites-ramsar.png</image>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=b9d942c7-0597-498b-8363-3969bf0b2b76&amp;fname=Protected_sites-ramsar_s.png</image>
+    <datasetLang>eng</datasetLang>
+    <Constraints>CCGC/CCW 2010 and  Crown copyright. All rights reserved. Third parties seeking to re-use this dataset require a CCW licence. It allows reproduction, dissemination and re-use in any format or medium but only for non-commercial purposes, according to the terms and conditions of the Licence. Those seeking commercial re-use require a commercial licence available from the OS.</Constraints>
+    <geoBox>-5.77774100|51.24082900|-2.60886500|53.51306700</geoBox>
+    <isHarvested>n</isHarvested>
+    <language>eng</language>
+    <defaultTitle>Protected sites: Ramsar- Wetlands of International Importance - GIS dataset</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>14</id>
+      <uuid>b9d942c7-0597-498b-8363-3969bf0b2b76</uuid>
+      <schema>iso19139</schema>
+      <createDate>2012-11-29T16:29:46</createDate>
+      <changeDate>2013-04-30T13:18:52</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Protected sites: Local Nature Reserves - GIS dataset</title>
+    <popularity>332</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <Constraints>copyright</Constraints>
+    <Constraints>otherRestrictions</Constraints>
+    <link>Protected_sites:LNR|Local Nature Reserves of Wales. Data produced by NRW (Natural Resources Wales).|../../srv/en/google.kml?uuid=7fb8c18c-b49c-40db-9f46-267fcb05a709&amp;layers=Protected_sites:LNR|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>Protected_sites:LNR|Local Nature Reserves of Wales. Data produced by NRW (Natural Resources Wales).|http://inspire.wales.gov.uk/maps/Protected_sites/wms?|OGC:WMS-1.3.0-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>||http://inspire.wales.gov.uk/maps/Protected_sites/wms?request=getCapabilities||text/plain</link>
+    <link>||http://inspire.wales.gov.uk/metadata/srv/en/main.home?uuid=7fb8c18c-b49c-40db-9f46-267fcb05a709||text/plain</link>
+    <responsibleParty>originator|resource|Natural Resources Wales (NRW)|</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|Spatial Evidence Officer|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>This is a GIS dataset containing spatial objects such as points, lines, and polygons. It contains the digital boundaries of LNRs in Wales. Local Nature Reserves are established and managed by local authorities, following consultation with CCW under the National Parks and Access to the Countryside Act 1949. For a site to become an LNR it must have natural features of special interest to the local area, and the authority must either have a legal interest in the land or have an agreement with the owner to manage the land as a reserve. LNR prove to be useful not only to protect habitats and wildlife but increase people's awareness of their environment. They are places where children can learn about nature, and they are often situated in or near urban areas.</abstract>
+    <keyword>Biodiversity</keyword>
+    <keyword>Nature conservation</keyword>
+    <keyword>Nature reserves</keyword>
+    <keyword>Protected sites</keyword>
+    <keyword>biota</keyword>
+    <keyword>environment</keyword>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=7fb8c18c-b49c-40db-9f46-267fcb05a709&amp;fname=CCW_LNR.png</image>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=7fb8c18c-b49c-40db-9f46-267fcb05a709&amp;fname=CCW_LNR_s.png</image>
+    <datasetLang>eng</datasetLang>
+    <Constraints>CCGC/CCW 2008 and Crown copyright. All rights reserved. Third parties seeking to re-use this dataset require a CCW licence. It allows reproduction, dissemination and re-use in any format or medium but only for non-commercial purposes, according to the terms and conditions of the Licence. Those seeking commercial re-use require a commercial licence available from the OS.</Constraints>
+    <geoBox>-6.148228472142454|51.34031677563294|-2.6346870978480914|53.56270760067827</geoBox>
+    <isHarvested>n</isHarvested>
+    <language>eng</language>
+    <defaultTitle>Protected sites: Local Nature Reserves - GIS dataset</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>10</id>
+      <uuid>7fb8c18c-b49c-40db-9f46-267fcb05a709</uuid>
+      <schema>iso19139</schema>
+      <createDate>2012-11-29T16:29:45</createDate>
+      <changeDate>2013-04-30T13:32:49</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Dedicated Woodlands</title>
+    <popularity>49</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <Constraints>otherRestrictions</Constraints>
+    <link>Protected_sites:forestry_wales_dedication|Dedicated Woodlands. Data produced by NRW.|../../srv/en/google.kml?uuid=3ec3bdd2-171f-4a14-872d-06351b017ff1&amp;layers=Protected_sites:forestry_wales_dedication|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>Protected_sites:forestry_wales_dedication|Dedicated Woodlands. Data produced by NRW.|http://inspire.wales.gov.uk/maps/Protected_sites/wms?|OGC:WMS-1.3.0-http-get-map|application/vnd.ogc.wms_xml</link>
+    <responsibleParty>pointOfContact|metadata|Natural Resources Wales|</responsibleParty>
+    <responsibleParty>publisher|resource|Natural Resources Wales|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <Constraints>Copyright</Constraints>
+    <Constraints>License</Constraints>
+    <abstract>This is an archive dataset and has not been updated since June 2008. The Dedication Scheme (Basis I &amp; II) was introduced in 1947 in order to encourage landowners to retain their land in forestry and to introduce good forestry practice. Basis III was introduced in 1974, providing grants for new planting and additional supplements for broadleaves. The Dedication Scheme was closed to new applicants in 1981. Land still under Dedication could continue to be within the scheme but Dedication would terminate on a change of ownership. Dedication schemes without a Plan of Operations and therefore receiving no grant, are deemed to be under Negative Covenant. Dataset Attributes Code Private Dedication Code Symbology Woodland_Name Woodland Name PD_Number Private Dedication Number BASIS Type of Scheme e.g Broadleaf III or Forestry Practice I&amp; II DATE_APPR Approval Date COVENANT Positive or Negative e.g. Plan of Operation in place GRID_REFERENCE Grid Reference TOTAL_AREA Total Area MANAGED_AREA Managed Area</abstract>
+    <keyword>Felling</keyword>
+    <keyword>Forest Management</keyword>
+    <keyword>Grant schemes</keyword>
+    <keyword>Licence</keyword>
+    <keyword>Restocking</keyword>
+    <keyword>environment</keyword>
+    <keyword>farming</keyword>
+    <Constraints>Crown copyright and database right 2013. Ordnance Survey Licence number 100021242</Constraints>
+    <Constraints>Use limitation dependent upon licence</Constraints>
+    <geoBox>-4.97|51.37415|-2.64985|53.43581</geoBox>
+    <isHarvested>n</isHarvested>
+    <language>eng</language>
+    <defaultTitle>Dedicated Woodlands</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>45</id>
+      <uuid>3ec3bdd2-171f-4a14-872d-06351b017ff1</uuid>
+      <schema>iso19139</schema>
+      <createDate>2013-05-15T16:30:20</createDate>
+      <changeDate>2013-05-15T16:45:00</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Protected sites: Special Areas of Conservation - GIS dataset</title>
+    <popularity>338</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <Constraints>copyright</Constraints>
+    <Constraints>otherRestrictions</Constraints>
+    <link>Protected_sites:sac|Special Areas of Conservation in Wales. Data produced by NRW (Natural Resources Wales)|../../srv/en/google.kml?uuid=39e71afb-9ab4-47ec-a176-670ea188f7e5&amp;layers=Protected_sites:sac|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>Protected_sites:sac|Special Areas of Conservation in Wales. Data produced by NRW (Natural Resources Wales)|http://inspire.wales.gov.uk/maps/Protected_sites/wms?|OGC:WMS-1.3.0-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>||http://inspire.wales.gov.uk/maps/Protected_sites/wms?request=getCapabilities||text/plain</link>
+    <link>||http://inspire.wales.gov.uk/metadata/srv/en/main.home?uuid=39e71afb-9ab4-47ec-a176-670ea188f7e5||text/plain</link>
+    <responsibleParty>originator|resource|Natural Resources Wales (NRW)|</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|Spatial Evidence Officer|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>This is a GIS dataset containing spatial objects such as points, lines, and polygons. It contains digital boundaries of SACs in Wales. The EC Habitats and Species Directive came into effect in 1992 and its aim is to maintain a rich variety of wildlife by protecting vulnerable habitats, and the plants and animals they support. The Habitat Directive together with the 1979 Birds Directive will lead to the establishment of a series of sites throughout Europe that will be known as 'Natura 2000'. This represents the cream of European sites and will ensure their survival for future generations. The sites listed here are all Candidate status, that means, they have been to public consultation and the UK government are currently presenting them to the EC for recommendation.</abstract>
+    <keyword>Biodiversity</keyword>
+    <keyword>Nature conservation</keyword>
+    <keyword>Protected sites</keyword>
+    <keyword>biota</keyword>
+    <keyword>environment</keyword>
+    <keyword>oceans</keyword>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=39e71afb-9ab4-47ec-a176-670ea188f7e5&amp;fname=CCW_SAC.png</image>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=39e71afb-9ab4-47ec-a176-670ea188f7e5&amp;fname=CCW_SAC_s.png</image>
+    <datasetLang>eng</datasetLang>
+    <Constraints>CCGC/CCW 2008 and Crown copyright. All rights reserved. Third parties seeking to re-use this dataset require a CCW licence. It allows reproduction, dissemination and re-use in any format or medium but only for non-commercial purposes, according to the terms and conditions of the Licence. Those seeking commercial re-use require a commercial licence available from the OS.</Constraints>
+    <geoBox>-6.053487780595954|51.190552794371094|-2.374440084169487|53.51884494275585</geoBox>
+    <isHarvested>n</isHarvested>
+    <language>eng</language>
+    <defaultTitle>Protected sites: Special Areas of Conservation - GIS dataset</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>15</id>
+      <uuid>39e71afb-9ab4-47ec-a176-670ea188f7e5</uuid>
+      <schema>iso19139</schema>
+      <createDate>2012-11-29T16:29:46</createDate>
+      <changeDate>2013-04-30T16:18:21</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>National Forest Estate Roads Wales</title>
+    <popularity>350</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <link>Protected_sites:national_forest_estate_roads_wales|National Forest Estate Roads Wales|../../srv/en/google.kml?uuid=0d1cc67f-895c-4552-acac-c84f32b015f3&amp;layers=Protected_sites:national_forest_estate_roads_wales|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>Protected_sites:national_forest_estate_roads_wales|National Forest Estate Roads Wales|http://inspire.wales.gov.uk/maps/Protected_sites/wms?|OGC:WMS-1.3.0-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>||http://inspire.wales.gov.uk/maps/Protected_sites/wms?request=getCapabilities||text/plain</link>
+    <link>||http://inspire.wales.gov.uk/metadata?uuid=0d1cc67f-895c-4552-acac-c84f32b015f3||text/plain</link>
+    <responsibleParty>pointOfContact|metadata|Welsh Government|</responsibleParty>
+    <responsibleParty>pointOfContact|resource|Natural Resources Wales|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <valid_schematron-rules-iso>1</valid_schematron-rules-iso>
+    <isTemplate>n</isTemplate>
+    <valid>0</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>GB_ROADS is compiled from Forest road network data managed by Forestry Civil
+Engineering. The data relates to forest road Classification.
+Forest Roads are categorised on the basis of intended usage (as listed below) rather
+than the specification used in their construction or upgrading. This can mean that, at a
+particular point in time, a Class A main road or a Class B spur road may have
+specification features that could limit its use.
+Class A - Main Roads
+" Principal timber haulage route on a long-term basis.
+" Constructed to high specification.
+" Maintained to a high standard.
+" Limiting features shown on road map.
+" All year but not all weather.
+Class B - Spur Roads
+" Used by timber haulage lorries for specific operations.
+" Full geometric and safety standards for stated use.
+" Specification tailored to suit purpose.
+" Possibility that surfacing not high quality or durable.
+" Long term maintenance minimal.
+" Each usage subject to individual engineering assessment.
+" Limiting features noted for each particular contract.
+
+Dataset Information
+Data Lineage
+The GB_ROADS is compiled from an export of the relevant live
+ACCESS_SEGMENTS feature classes held in Forest Districts. The data is
+then joined with the associated ROAD_EVENTS table to ascribe the correct
+road Classification measures to the segments.
+Class C - Other Roads
+" Roads other than Main or Spur roads.
+" Maintenance dependent on usage.
+" Not normally used by timber haulage lorries.
+" Use by timber haulage lorries subject to the same individual engineering
+assessment as Class B roads.
+Attributes;
+EVENTLENGTH total length of event on road segment
+EVENT_FROM start point in metres of event along associated road segment
+EVENT_TO end point in metres of event along associated road segment
+ROAD_REF number prescribed by FCE to road segment
+CLASS current Forestry Civil Engineering classification type of road
+D_CODE Cost Centre in which road segment occurs
+© Crown copyright and database right 'year'.
+Ordnance Survey Licence number 100021242</abstract>
+    <valid_schematron-rules-geonetwork>1</valid_schematron-rules-geonetwork>
+    <keyword>Forestry</keyword>
+    <keyword>Protected sites</keyword>
+    <keyword>Roads</keyword>
+    <keyword>environment</keyword>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=0d1cc67f-895c-4552-acac-c84f32b015f3&amp;fname=FCW_Roads.png</image>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=0d1cc67f-895c-4552-acac-c84f32b015f3&amp;fname=FCW_Roads_s.png</image>
+    <datasetLang>eng</datasetLang>
+    <Constraints>Formal Permission required for use</Constraints>
+    <geoBox>-6.205334923586859|51.03149992780179|-2.0733217562446775|53.687994702858944</geoBox>
+    <isHarvested>n</isHarvested>
+    <valid_xsd>0</valid_xsd>
+    <language>eng</language>
+    <defaultTitle>National Forest Estate Roads Wales</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>21</id>
+      <uuid>0d1cc67f-895c-4552-acac-c84f32b015f3</uuid>
+      <schema>iso19139</schema>
+      <createDate>2012-11-29T16:29:46</createDate>
+      <changeDate>2013-04-30T16:21:31</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Protected sites: Biospheric Reserves - GIS dataset</title>
+    <popularity>351</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <Constraints>copyright</Constraints>
+    <Constraints>otherRestrictions</Constraints>
+    <link>Protected_sites:biosphere|Biosperic Reserves of Wales. Data produced by the NRW (Natural Resources Wales)|../../srv/en/google.kml?uuid=9df4d7f2-d74f-41e5-afd9-7a5aab65b415&amp;layers=Protected_sites:biosphere|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>Protected_sites:biosphere|Biosperic Reserves of Wales. Data produced by the NRW (Natural Resources Wales)|http://inspire.wales.gov.uk/maps/Protected_sites/wms?|OGC:WMS-1.3.0-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>||http://inspire.wales.gov.uk/maps/Protected_sites/wms?request=getCapabilities||text/plain</link>
+    <link>||http://inspire.wales.gov.uk/metadata/srv/en/main.home?uuid=9df4d7f2-d74f-41e5-afd9-7a5aab65b415||text/plain</link>
+    <responsibleParty>originator|resource|Natural Resources Wales (NRW)|</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|Spatial Evidence Officer|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>This is a GIS dataset containing spatial objects such as points, lines, and polygons. It contains the digital boundaries of biogenetic reserves in Wales. The Biosphere Reserve is an international designation made by UNESCO based on nominations made by more than 110 countries. They are chosen to conserve examples of areas which are characteristic of the world's natural regions. They must also be areas where people are important components of everyday life. The biosphere is rapidly changing under the influence of human activity, so meeting their needs whilst conserving the area's natural processes and wildlife is of the utmost importance to understand.</abstract>
+    <keyword>Biodiversity</keyword>
+    <keyword>Nature conservation</keyword>
+    <keyword>Protected sites</keyword>
+    <keyword>biota</keyword>
+    <keyword>environment</keyword>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=9df4d7f2-d74f-41e5-afd9-7a5aab65b415&amp;fname=CCW_Biosperic.png</image>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=9df4d7f2-d74f-41e5-afd9-7a5aab65b415&amp;fname=CCW_Biosperic_s.png</image>
+    <datasetLang>eng</datasetLang>
+    <Constraints>CCGC/CCW 2008 and Crown copyright. All rights reserved. Third parties seeking to re-use this dataset require a CCW licence. It allows reproduction, dissemination and re-use in any format or medium but only for non-commercial purposes, according to the terms and conditions of the Licence. Those seeking commercial re-use require a commercial licence available from the OS.</Constraints>
+    <geoBox>-4.24616933|52.38012124|-3.54798302|52.80139004</geoBox>
+    <isHarvested>n</isHarvested>
+    <language>eng</language>
+    <defaultTitle>Protected sites: Biospheric Reserves - GIS dataset</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>7</id>
+      <uuid>9df4d7f2-d74f-41e5-afd9-7a5aab65b415</uuid>
+      <schema>iso19139</schema>
+      <createDate>2012-11-29T16:29:45</createDate>
+      <changeDate>2013-04-30T16:41:23</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Scheduled Ancient Monuments in Wales GIS Polygon Dataset</title>
+    <popularity>694</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <link>Protected_sites:sam_jul11|Scheduled and Ancient Monuments|../../srv/en/google.kml?uuid=cb700cb4-bc19-48d1-898f-e239dec6d81e&amp;layers=Protected_sites:sam_jul11|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>Protected_sites:sam_jul11|Scheduled and Ancient Monuments|http://inspire.wales.gov.uk/maps/Protected_sites/wms?|OGC:WMS-1.3.0-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>||http://inspire.wales.gov.uk/maps/Protected_sites/wms?request=getCapabilities||text/plain</link>
+    <link>||http://inspire.wales.gov.uk/metadata?uuid=cb700cb4-bc19-48d1-898f-e239dec6d81e||text/plain</link>
+    <responsibleParty>pointOfContact|metadata|Welsh Government|</responsibleParty>
+    <responsibleParty>pointOfContact|resource|CADW (The Historic Environment Service of the Welsh Assembly Government)|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>Under the Ancient Monuments and Archaeological Areas Act 1979, the Welsh Ministers are required to compile and maintain a schedule of ancient monuments of national importance. Monuments included in the schedule have statutory protection. This dataset shows an indicative representation of the SAM spatial area.
+
+All planning enquiries that may effect a SAM or its setting should be directed to Cadw.</abstract>
+    <keyword>CADW</keyword>
+    <keyword>Historic Environment (addition)</keyword>
+    <keyword>Protected sites</keyword>
+    <keyword>Scheduled and Ancient Monuments</keyword>
+    <keyword>environment</keyword>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=cb700cb4-bc19-48d1-898f-e239dec6d81e&amp;fname=Protected_sites-sam_jul11.png</image>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=cb700cb4-bc19-48d1-898f-e239dec6d81e&amp;fname=Protected_sites-sam_jul11_s.png</image>
+    <datasetLang>eng</datasetLang>
+    <Constraints>Copyright</Constraints>
+    <geoBox>-5.981692120396881|51.11917335285617|-2.459718541132296|53.713851677385684</geoBox>
+    <isHarvested>n</isHarvested>
+    <language>eng</language>
+    <defaultTitle>Scheduled Ancient Monuments in Wales GIS Polygon Dataset</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>3</id>
+      <uuid>cb700cb4-bc19-48d1-898f-e239dec6d81e</uuid>
+      <schema>iso19139</schema>
+      <createDate>2012-11-29T16:29:43</createDate>
+      <changeDate>2013-03-21T15:15:32</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Welsh Government Protected sites view service.</title>
+    <popularity>490</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <Constraints>otherRestrictions</Constraints>
+    <link>Welsh Government INSPIRE resource.|Further information about this resource is available on the Welsh Government INSPIRE website|http://inspire.wales.gov.uk||text/plain</link>
+    <link>Welsh Government Protected Sites Web Map Service (WMS) 1.3.0|Link to the GetCapabilities request for this service|http://inspire.wales.gov.uk/maps/Protected_sites/wms?request=getCapabilities||text/plain</link>
+    <responsibleParty>pointOfContact|metadata|Welsh Government|</responsibleParty>
+    <responsibleParty>resourceProvider|resource|Geography and Technology|</responsibleParty>
+    <type>service</type>
+    <type>service-view</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>interactiveResources</category>
+    <Constraints>Copyright</Constraints>
+    <abstract>This service contains shape files for protected geographical regions of Wales. This service includes with it, the Countryside Council for Wales datasets and the Forestry Commission Wales datasets.</abstract>
+    <keyword>CCW</keyword>
+    <keyword>Conservation</keyword>
+    <keyword>Ecosystems</keyword>
+    <keyword>FCW</keyword>
+    <keyword>Natural areas protection</keyword>
+    <keyword>Protected Sites</keyword>
+    <keyword>Protected sites</keyword>
+    <keyword>Welsh Government</keyword>
+    <keyword>Welsh Government Protected Sites</keyword>
+    <keyword>infoMapAccessService</keyword>
+    <Constraints>other Constraints</Constraints>
+    <serviceType>view</serviceType>
+    <geoBox>-5.825545207013085|51.25238695361476|-2.5648331861098006|53.532514286078396</geoBox>
+    <isHarvested>n</isHarvested>
+    <language>eng</language>
+    <defaultTitle>Welsh Government Protected sites view service.</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>29</id>
+      <uuid>d4b21113-bf51-47c7-b78e-cfe41372a8a1</uuid>
+      <schema>iso19139</schema>
+      <createDate>2012-11-29T16:30:48</createDate>
+      <changeDate>2012-11-29T16:30:48</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Wales Trunk Road and Motorway Network</title>
+    <popularity>353</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <link>Transport_networks:trunk_roads|Wales trunk road data set.|../../srv/en/google.kml?uuid=6947854a-d5ac-4095-ac1d-3e355914f6bb&amp;layers=Transport_networks:trunk_roads|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>Transport_networks:trunk_roads|Wales trunk road data set.|http://inspire.wales.gov.uk/maps/Transport_networks/wms?|OGC:WMS-1.3.0-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>||http://inspire.wales.gov.uk/maps/Transport_networks/wms?request=getCapabilities||text/plain</link>
+    <link>||http://inspire.wales.gov.uk/metadata?uuid=6947854a-d5ac-4095-ac1d-3e355914f6bb||text/plain</link>
+    <responsibleParty>pointOfContact|metadata|Mark Suller|</responsibleParty>
+    <responsibleParty>pointOfContact|resource|Mark Suller|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>directories</category>
+    <abstract>Network shape and data for Trunk Road and Motorways in Wales</abstract>
+    <keyword>Network</keyword>
+    <keyword>Road</keyword>
+    <keyword>Transport networks</keyword>
+    <keyword>transportation</keyword>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=6947854a-d5ac-4095-ac1d-3e355914f6bb&amp;fname=WG_Trunkroads.png</image>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=6947854a-d5ac-4095-ac1d-3e355914f6bb&amp;fname=WG_Trunkroads_s.png</image>
+    <datasetLang>eng</datasetLang>
+    <Constraints>Formal Permission required for use</Constraints>
+    <geoBox>-5.802111651012294|51.251927723263655|-2.525622311064917|53.47777615125989</geoBox>
+    <isHarvested>n</isHarvested>
+    <language>eng</language>
+    <defaultTitle>Wales Trunk Road and Motorway Network</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>31</id>
+      <uuid>6947854a-d5ac-4095-ac1d-3e355914f6bb</uuid>
+      <schema>iso19139</schema>
+      <createDate>2012-11-29T16:31:33</createDate>
+      <changeDate>2013-03-21T14:57:21</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Welsh Government Land Cover view service.</title>
+    <popularity>165</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <Constraints>otherRestrictions</Constraints>
+    <link>Welsh Government INSPIRE resource.|Further information about this resource is available on the Welsh Government INSPIRE website|http://inspire.wales.gov.uk||text/plain</link>
+    <link>Welsh Government Land Cover Web Map Service (WMS) 1.3.0|Link to the GetCapabilities request for this service|http://inspire.wales.gov.uk/maps/Land_cover/wms?request=getCapabilities||text/plain</link>
+    <responsibleParty>pointOfContact|metadata|Welsh Government|</responsibleParty>
+    <responsibleParty>resourceProvider|resource|Geography and Technology|</responsibleParty>
+    <type>service</type>
+    <type>service-view</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>interactiveResources</category>
+    <Constraints>Copyright</Constraints>
+    <abstract>This service contains shape files for the INSPIRE Land Cover Theme of Wales.</abstract>
+    <keyword>Land Cover</keyword>
+    <keyword>Welsh Government Land Cover</keyword>
+    <keyword>infoMapAccessService</keyword>
+    <Constraints>other Constraints</Constraints>
+    <serviceType>view</serviceType>
+    <geoBox>-5.7176981737300085|51.298132478480944|-2.5312689691254633|53.481104300683654</geoBox>
+    <isHarvested>n</isHarvested>
+    <language>eng</language>
+    <defaultTitle>Welsh Government Land Cover view service.</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>27</id>
+      <uuid>c6c98999-d616-419e-91fd-7c9bf02e40fd</uuid>
+      <schema>iso19139</schema>
+      <createDate>2012-11-29T16:30:48</createDate>
+      <changeDate>2012-11-29T16:30:48</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>WOODLAND GRANT SCHEME 3 (Wales)</title>
+    <popularity>402</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <link>Protected_sites:wales_wgs3|Woodland Grant Scheme 3 (Wales)|../../srv/en/google.kml?uuid=c404893d-6220-4c31-b34c-69cbcfdc61e8&amp;layers=Protected_sites:wales_wgs3|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>Protected_sites:wales_wgs3|Woodland Grant Scheme 3 (Wales)|http://inspire.wales.gov.uk/maps/Protected_sites/wms?|OGC:WMS-1.3.0-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>||http://inspire.wales.gov.uk/maps/Protected_sites/wms?request=getCapabilities||text/plain</link>
+    <link>||http://inspire.wales.gov.uk/metadata?uuid=c404893d-6220-4c31-b34c-69cbcfdc61e8||text/plain</link>
+    <responsibleParty>pointOfContact|metadata|Welsh Government|</responsibleParty>
+    <responsibleParty>pointOfContact|resource|Natural Resources Wales|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>Description
+This dataset is an archived dataset and has not been updated since June 2008.
+The Woodland Grant Scheme (WGS) provides incentives for
+people to create and manage woodlands on sites all over Great Britain.
+The Forestry Commission pays grants for establishing and looking after woodlands
+and forests. To qualify for grant the applicant must meet the standards of
+environmental protection and practice set out in the Forestry Commission's
+guidelines. WGS3 has been operative since September 1994.
+WGS 3 closed for new applications on 1st September 2006 and
+has been replaced by Better Woods for Wales( BWfW) which is
+the new grant scheme for creating and improving woodlands in Wales.
+Contents of the dataset:
+The dataset identifies areas approved by grant type within each WGS scheme
+boundary. The list below provides a summary of the grant types captured:
+SCHEME BOUNDARY -
+The boundary of the area(s) included within the scheme (contract).
+NEW PLANTING APPROVED -
+Page 1 of 6
+file://C:\Temp\metadata22.htm 22/03/2011
+Areas within the contract where new planting has been approved under NP, NB, NS,
+NC, NK, NX and/or NY.
+NEW NATURAL REGENERATION APPROVED -
+Areas within the contract where new natural regeneration has been approved under
+NN, NL and/or NZ.
+REPLANTING/RESTOCKING/MANAGEMENT -
+Areas within the contract where replanting or restocking has been approved under
+RP, RC or RQ.
+RESTOCKING BY NATURAL REGENERATION -
+Areas within the contract where restocking by natural regeneration has been
+approved under RN or EN.
+ANNUAL MANAGEMENT GRANT -
+Areas within the contract approved for Annual Management Grant payment. AMG is
+intended to assist with the costs of maintaining and improving woodland and for
+creating or enhancing public access.
+COMMUNITY FOREST PREMIUM -
+Areas within the contract approved for Community Forest Premium (CF PREM). This
+payment provides an additional incentive for the planting of new woodlands in
+specially targeted areas.
+WOODLAND IMPROVEMENT GRANT -
+Areas within the contract approved for Woodland Improvement Grant. This is a single
+payment made to encourage a range of work in existing woodlands and bring them
+back into management or where the opportunity arises, to undertake work which will
+enhance the value of the woodland for conservation, landscape or recreation.
+WIG is currently divided into three categories - -
+WIG1 for Public Access
+WIG2 for Undermanaged Woodlands
+WIG3 for Biodiversity.
+LIVESTOCK EXCLUSION ANNUAL PREMIUM (1st January 2000 On)
+Areas within the contract approved for Livestock Exclusion Annual Premium (LEAP)
+paid to compensate the farmer for the loss of revenue through excluding agricultural
+stock from woodlands. To qualify, an area must be within either a Less Favoured
+Area (LFA) or an Environmentally Sensitive Area (ESA). The grant may only be paid
+if agricultural stock is preventing the regeneration of woodland.
+COMMUNITY WOODLAND CONTRIBUTION -
+Areas within the contract approved for Community Woodland Contribution. CWC is
+available to encourage the creation of new woodlands near towns and cities which
+can be used for informal recreation.
+FELLING (1st April 1998 On) -
+Areas within the contract approved for clear felling. Following a change in the law on
+1st April 1998, WGS was removed from felling licence exemptions and any licensable
+felling within the contract must now be covered by a felling licence.
+SELECTIVE FELLING (1st April 1998 On) -
+Areas within the contract approved for selective felling. Following a change in the law
+
+on 1st April 1998, WGS was removed from felling licence exemptions and any
+licensable felling within the contract must now be covered by a felling licence.
+Below is a list of the abbreviations used above:
+NP New planting
+NB New planting with better land supplement
+NS New planting accepted into the 1988 set-aside scheme
+NC New planting of coppice
+NK New planting of coppice with better land supplement
+NX New planting of short rotation coppice on non set-aside land
+NY New planting of short rotation coppice on set-aside land
+NN New planting by natural regeneration
+NL New planting by natural regeneration with better land supp
+NZ New planting by natural regeneration with set-aside
+RP Restocking by replanting
+RC Restocking with coppice (planting not regrowth)
+RQ Restocking with short rotation coppice (planting not regrowth)
+RN Restocking by natural regeneration
+EN Restocking by existing natural regeneration
+Dataset Attributes:
+Descriptor Description of identified feature
+PropNumber Property number
+PlanNumber Plan number
+PropName Property name
+Plan_Type Type of plan (Management, Establishment, Both)
+Prop_Type Property type (Farm, Recreation, etc)
+Owner_Type Owner type (Business, Personal Occupier, etc)
+Grid_Ref National grid reference (eg. NS987435)
+Local_Auth Council (eg. Highland Council)
+CWSPrem Is the scheme eligible for Community Woodland Supplement
+(Y/N)
+Farm_Prem Is the scheme eligible for Farm Woodland Premium Scheme
+(Y/N)
+Cont_Start Date the contract started
+Cont_End Date the contract ends
+Case_Offcr Case Officers name
+Appr_Offcr Approving Officers name
+Cons_Name Conservancy name
+Agent_Name Agents name
+Agent_Prem Agents premises
+Agent_Str Agents street
+Agent_Dist Agents area
+Agent_Town Agents town or city
+Agent_PC Agents post-code
+Agent_Tel Agents telephone number
+Conif_ha Total conifer planting under work type (ha)
+BLeaf_ha Total broadleaf planting under work type (ha)
+Conif_pct Percentage conifer planting under work type
+BLeaf_pct Percentage broadleaf planting under work type
+
+Dataset Information
+Data Lineage
+The spatial element of this dataset has been digitised by CGIS, FCW. The
+textual element has been extracted from the WGS Oracle database using
+Business Objects and associated with the spatial data.
+Information is mapped following final approval stage, from contract maps
+supplied by the applicants (normally based on 1:2500 or 1:10,000 OS maps).
+Spatial data has been digitised against OS raster backdrops using 1:25,000
+scale between 1997 and 2000, and 1:10,000 scale between 2000 and 2004.
+No Amendments to scheme boundaries or grant aided areas have been made
+Conif_unpd Conifer area still to receive 1st Installment payment (ha)
+BLeaf_unpd Broadleaf area still to receive 1st Installment payment (ha)
+Total_Area Total area of work type within the grant scheme
+Withdrawn This work type has been withdrawn from the case (True/False)
+Please ensure that the following acknowledgement is displayed on any hard copy:
+© Crown copyright and database right 'year'.
+Ordnance Survey Licence number 100021242.</abstract>
+    <keyword>Forestry</keyword>
+    <keyword>Protected sites</keyword>
+    <keyword>WGS3</keyword>
+    <keyword>Woodland Grant Scheme 3</keyword>
+    <keyword>environment</keyword>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=c404893d-6220-4c31-b34c-69cbcfdc61e8&amp;fname=FCW_WGS3.png</image>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=c404893d-6220-4c31-b34c-69cbcfdc61e8&amp;fname=FCW_WGS3_s.png</image>
+    <datasetLang>eng</datasetLang>
+    <Constraints>Formal Permission required for use</Constraints>
+    <geoBox>-5.92418286254276|51.1183957740707|-2.534147536265046|53.710993774379745</geoBox>
+    <isHarvested>n</isHarvested>
+    <language>eng</language>
+    <defaultTitle>WOODLAND GRANT SCHEME 3 (Wales)</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>25</id>
+      <uuid>c404893d-6220-4c31-b34c-69cbcfdc61e8</uuid>
+      <schema>iso19139</schema>
+      <createDate>2012-11-29T16:29:47</createDate>
+      <changeDate>2013-04-30T16:53:28</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Protected sites: National Parks - GIS Dataset</title>
+    <popularity>277</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <Constraints>copyright</Constraints>
+    <Constraints>otherRestrictions</Constraints>
+    <link>Protected_sites:national_parks|National Parks of Wales. Data produced by NRW (Natural Resources Wales)|../../srv/en/google.kml?uuid=5b93e81b-a606-4fe3-b20a-e124736b7adb&amp;layers=Protected_sites:national_parks|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>Protected_sites:national_parks|National Parks of Wales. Data produced by NRW (Natural Resources Wales)|http://inspire.wales.gov.uk/maps/Protected_sites/wms?|OGC:WMS-1.3.0-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>||http://inspire.wales.gov.uk/maps/Protected_sites/wms?request=getCapabilities||text/plain</link>
+    <link>||http://inspire.wales.gov.uk/metadata/srv/en/main.home?uuid=5b93e81b-a606-4fe3-b20a-e124736b7adb||text/plain</link>
+    <responsibleParty>originator|resource|National Park Authorities|</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|Spatial Evidence Officer|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>This is a GIS dataset containing spatial objects such as points, lines, and polygons. It contains the digital boundaries of national parks in National Parks were established to protect beautiful and relatively wild countryside by: preserving the characteristic beauty of the landscape; providing access and facilities for public open-air enjoyment; protecting wildlife, buildings and places of architectural and historic interest; whilst allowing sustainable farming use to continue as before. Powers to create National Parks were established under the National Parks and Access to the Countryside Act 1949. In Wales , since 1991, the designation of National Parks is proposed by CCW and confirmed by the First Minister for the Welsh Assembly Government. Since 1996 the Parks have been administered by independent free-standing authorities.</abstract>
+    <keyword>Biodiversity</keyword>
+    <keyword>Nature conservation</keyword>
+    <keyword>Nature reserves</keyword>
+    <keyword>Protected sites</keyword>
+    <keyword>biota</keyword>
+    <keyword>environment</keyword>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=5b93e81b-a606-4fe3-b20a-e124736b7adb&amp;fname=CCW_NationalParks.png</image>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=5b93e81b-a606-4fe3-b20a-e124736b7adb&amp;fname=CCW_NationalParks_s.png</image>
+    <datasetLang>eng</datasetLang>
+    <Constraints>CCGC/CCW 2008 and Crown copyright. All rights reserved. Third parties seeking to re-use this dataset require a CCW licence. It allows reproduction, dissemination and re-use in any format or medium but only for non-commercial purposes, according to the terms and conditions of the Licence. Those seeking commercial re-use require a commercial licence available from the OS.</Constraints>
+    <geoBox>-5.930211245563339|50.94571547222583|-2.287004656458133|53.64719670099316</geoBox>
+    <isHarvested>n</isHarvested>
+    <language>eng</language>
+    <defaultTitle>Protected sites: National Parks - GIS Dataset</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>13</id>
+      <uuid>5b93e81b-a606-4fe3-b20a-e124736b7adb</uuid>
+      <schema>iso19139</schema>
+      <createDate>2012-11-29T16:29:46</createDate>
+      <changeDate>2013-04-30T16:38:19</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Protected sites: Marine Nature Reserves - GIS dataset</title>
+    <popularity>353</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <Constraints>copyright</Constraints>
+    <Constraints>otherRestrictions</Constraints>
+    <link>Protected_sites:MNR|Marine Nature Reserves of Wales. Data produced by NRW (Natural Resources Wales)|../../srv/en/google.kml?uuid=932aa45e-4c20-453b-a394-544b6afbae9f&amp;layers=Protected_sites:MNR|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>Protected_sites:MNR|Marine Nature Reserves of Wales. Data produced by NRW (Natural Resources Wales)|http://inspire.wales.gov.uk/maps/Protected_sites/wms?|OGC:WMS-1.3.0-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>||http://inspire.wales.gov.uk/maps/Protected_sites/wms?request=getCapabilities||text/plain</link>
+    <link>||http://inspire.wales.gov.uk/metadata/srv/en/main.home?uuid=932aa45e-4c20-453b-a394-544b6afbae9f||text/plain</link>
+    <responsibleParty>originator|resource|Natural Resources Wales (NRW)|</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|Spatial Evidence Officer|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>This is a GIS dataset containing spatial objects such as points, lines, and polygons. This dataset contains the digital boundaries of Marine Nature Reserves in Wales. Marine Nature Reserves are a way of conserving marine habitats and wildlife and other features, of special importance, along the shore or on the seabed. Skomer, the first and only MNR in Wales, was established in 1990 and is situated around the island of Skomer and the Marloes Peninsula in south west Wales. The Wildlife and Countryside Act 1981 empowers CCW to apply to the First Minister for the National Assembly for Wales (NAW) to designate MNR. To give some protection, MNR may be governed by byelaws, created through discussions and mutual agreements with all concerned, and approved by WAG. MNR make a valuable contribution to the protection of our seas by creating an awareness of the fragility and value of the natural marine heritage.</abstract>
+    <keyword>Biodiversity</keyword>
+    <keyword>Marine conservation</keyword>
+    <keyword>Marine environment</keyword>
+    <keyword>Protected sites</keyword>
+    <keyword>biota</keyword>
+    <keyword>environment</keyword>
+    <keyword>oceans</keyword>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=932aa45e-4c20-453b-a394-544b6afbae9f&amp;fname=CCW_mnr.png</image>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=932aa45e-4c20-453b-a394-544b6afbae9f&amp;fname=CCW_mnr_s.png</image>
+    <datasetLang>eng</datasetLang>
+    <Constraints>CCGC/CCW 2010 and Crown copyright. All rights reserved. Third parties seeking to re-use this dataset require a CCW licence. It allows reproduction, dissemination and re-use in any format or medium but only for non-commercial purposes, according to the terms and conditions of the Licence. Those seeking commercial re-use require a commercial licence available from the OS.</Constraints>
+    <geoBox>-5.990604430553213|51.28267113693288|-2.5475018649617263|53.567842304461394</geoBox>
+    <isHarvested>n</isHarvested>
+    <language>eng</language>
+    <defaultTitle>Protected sites: Marine Nature Reserves - GIS dataset</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>11</id>
+      <uuid>932aa45e-4c20-453b-a394-544b6afbae9f</uuid>
+      <schema>iso19139</schema>
+      <createDate>2012-11-29T16:29:46</createDate>
+      <changeDate>2013-04-30T17:02:28</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Protected sites: Country Parks - GIS dataset</title>
+    <popularity>350</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <Constraints>copyright</Constraints>
+    <Constraints>otherRestrictions</Constraints>
+    <link>Protected_sites:country_parks|Country Parks of Wales. Data produced by NRW (Natural Resources Wales)|../../srv/en/google.kml?uuid=be06a48d-36fa-4369-a585-7fcc319db4c0&amp;layers=Protected_sites:country_parks|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>Protected_sites:country_parks|Country Parks of Wales. Data produced by NRW (Natural Resources Wales)|http://inspire.wales.gov.uk/maps/Protected_sites/wms?|OGC:WMS-1.3.0-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>||http://inspire.wales.gov.uk/maps/Protected_sites/wms?request=getCapabilities||text/plain</link>
+    <link>||http://inspire.wales.gov.uk/metadata/srv/en/main.home?uuid=be06a48d-36fa-4369-a585-7fcc319db4c0||text/plain</link>
+    <responsibleParty>originator|resource|Natural Resources Wales (NRW)|</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|Spatial Evidence Officer|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>This is a GIS dataset containing spatial objects such as points, lines, and polygons. It contains digital boundaries of country parks. There are about 250 recognised Country Parks in England and Wales. Most Country Parks were designated in the 1970s, under the Countryside Act 1968 with the support of the former Countryside Commission. In more recent times there has been no specific financial support for country parks directly, and fewer have been designated. Most are managed by local authorities, although other organisations and private individuals can also run them. A Country Park is an area designated for people to visit and enjoy recreation in a countryside environment. The purpose of a country park is to provide somewhere for visitors who do not necessarily want to go out into the wider countryside. Visitors can enjoy a public open space with an informal atmosphere, as opposed to a formal park as might be found in an urban area. For this reason country parks are usually found close to or on the edge of built-up areas, and rarely in the countryside proper.</abstract>
+    <keyword>Biodiversity</keyword>
+    <keyword>Country parks</keyword>
+    <keyword>Nature conservation</keyword>
+    <keyword>Protected sites</keyword>
+    <keyword>biota</keyword>
+    <keyword>environment</keyword>
+    <keyword>geoscientificInformation</keyword>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=be06a48d-36fa-4369-a585-7fcc319db4c0&amp;fname=CCW_Countryparks.png</image>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=be06a48d-36fa-4369-a585-7fcc319db4c0&amp;fname=CCW_Countryparks_s.png</image>
+    <datasetLang>eng</datasetLang>
+    <Constraints>CCGC/CCW 2004. You may reproduce this dataset free of charge for non-commercial and internal business purposes in any format or medium, provided that you do so accurately, acknowledging both the source and CCW's copyright, and do not use it in a misleading context. To avoid using old information, we recommend that you obtain the latest version from the original source.</Constraints>
+    <geoBox>-6.279468297494083|51.02857752005919|-2.4589218491907405|53.525259613573844</geoBox>
+    <isHarvested>n</isHarvested>
+    <language>eng</language>
+    <defaultTitle>Protected sites: Country Parks - GIS dataset</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>8</id>
+      <uuid>be06a48d-36fa-4369-a585-7fcc319db4c0</uuid>
+      <schema>iso19139</schema>
+      <createDate>2012-11-29T16:29:45</createDate>
+      <changeDate>2013-04-30T16:43:14</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>WOODLAND GRANT SCHEME 1 (Wales)</title>
+    <popularity>350</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <link>Protected_sites:wales_wgs1|Woodland Grant Scheme 1 (Wales)|../../srv/en/google.kml?uuid=c6c6019b-250a-4589-95d8-2f7563fa9f6c&amp;layers=Protected_sites:wales_wgs1|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>Protected_sites:wales_wgs1|Woodland Grant Scheme 1 (Wales)|http://inspire.wales.gov.uk/maps/Protected_sites/wms?|OGC:WMS-1.3.0-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>||http://inspire.wales.gov.uk/maps/Protected_sites/wms?request=getCapabilities||text/plain</link>
+    <link>||http://inspire.wales.gov.uk/metadata?uuid=c6c6019b-250a-4589-95d8-2f7563fa9f6c||text/plain</link>
+    <responsibleParty>pointOfContact|metadata|Welsh Government|</responsibleParty>
+    <responsibleParty>pointOfContact|resource|Natural Resources Wales|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>Description
+This dataset is an archived dataset and has not been updated since October 2006.
+The Woodland Grant Scheme (WGS) provides incentives for people to create and
+manage woodlands on sites all over Great Britain. The Forestry Commission pays
+grants for establishing and looking after woodlands and forests. To qualify for grant
+the applicant must meet the standards of environmental protection and practice set
+out in the Forestry Commission's guidelines. WGS1 operated between June 1988 and
+June 1991.
+Contents of the dataset:
+The dataset identifies areas approved by grant type within each WGS scheme
+boundary. The list below provides a summary of the grant types captured:
+SCHEME BOUNDARY - The boundary of the area(s) included within the scheme.
+NEW PLANTING APPROVED - Areas within the contract where new planting has
+been approved under P and/or A.
+NEW NATURAL REGENERATION APPROVED - Areas within the contract where
+new natural regeneration has been approved.
+
+Dataset Information
+REPLANTING/REGENERATION/MANAGEMENT - Areas within the contract where
+replanting, restocking by natural regeneration or management has been approved
+under RP, R, ER and/or NW.
+Below is a list of the Abbreviations used above:
+P New planting
+A New planting on arable or improved grassland
+RP Restocking by planting or natural regeneration
+R Restocking by planting or natural regeneration
+ER Existing natural regeneration NW Neglected woodland to be managed
+Dataset Attributes:
+Dataset Attributes:
+Descriptor Description of identified feature
+PropNumber Property number
+PropName Property name
+Prop_Type Property type (Traditional Estate, etc)
+PropStatus Current property status (Approved, etc)
+Cont_Start Date scheme was approved and contract started
+Grid_Ref National grid reference (NS564358)
+Restock_ha Total area of restocking approved within the scheme
+NewPlnt_ha Total area of new planting approved within the scheme
+Total_Area Total area of scheme boundary
+Please ensure that the following acknowledgement is displayed on any hard copy:
+© Crown copyright and database right 'year'.
+Ordnance Survey Licence number 100021242.</abstract>
+    <keyword>Forestry</keyword>
+    <keyword>Protected sites</keyword>
+    <keyword>Woodland Grant Scheme 1</keyword>
+    <keyword>environment</keyword>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=c6c6019b-250a-4589-95d8-2f7563fa9f6c&amp;fname=FCW_WGS1.png</image>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=c6c6019b-250a-4589-95d8-2f7563fa9f6c&amp;fname=FCW_WGS1_s.png</image>
+    <datasetLang>eng</datasetLang>
+    <Constraints>Formal Permission required for use</Constraints>
+    <geoBox>-6.215670196329692|51.226244790157246|-2.5156188836884685|53.66659805909868</geoBox>
+    <isHarvested>n</isHarvested>
+    <language>eng</language>
+    <defaultTitle>WOODLAND GRANT SCHEME 1 (Wales)</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>23</id>
+      <uuid>c6c6019b-250a-4589-95d8-2f7563fa9f6c</uuid>
+      <schema>iso19139</schema>
+      <createDate>2012-11-29T16:29:47</createDate>
+      <changeDate>2013-04-30T16:55:56</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Protected sites: Biogenetic Reserves - GIS dataset</title>
+    <popularity>362</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <Constraints>copyright</Constraints>
+    <Constraints>otherRestrictions</Constraints>
+    <link>Protected_sites:biogenetic|Biogentic Reserves of Wales. Data produced by NRW (Natural Resources Wales)|../../srv/en/google.kml?uuid=74e6ef00-d133-4dc6-937b-90d145bf9c3a&amp;layers=Protected_sites:biogenetic|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>Protected_sites:biogenetic|Biogentic Reserves of Wales. Data produced by NRW (Natural Resources Wales)|http://inspire.wales.gov.uk/maps/Protected_sites/wms?|OGC:WMS-1.3.0-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>||http://inspire.wales.gov.uk/maps/Protected_sites/wms?request=getCapabilities||text/plain</link>
+    <link>||http://inspire.wales.gov.uk/metadata/srv/en/main.home?uuid=74e6ef00-d133-4dc6-937b-90d145bf9c3a||text/plain</link>
+    <responsibleParty>originator|resource|Natural Resources Wales (NRW)|</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|Spatial Evidence Officer|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>This is a GIS dataset containing spatial polygons of the boundaries of Biogenetic Reserves in Wales. It contains the digital boundaries of biogenetic reserves in Wales. Biogenetic Reserves aim to conserve European flora, fauna and natural areas especially heathlands and dry grasslands, that although common in one country may be scarce in another. In this way a store of genetic material - the genes of plants and animals - is kept for the future, hence the term Biogenetic. To qualify for this designation, sites in the UK must first be SSSI or otherwise designated. The Bern Convention - signed by the UK government in 1982 led to the establishment of this European network of Biogenetic Reserves.</abstract>
+    <keyword>Biodiversity</keyword>
+    <keyword>Nature conservation</keyword>
+    <keyword>Protected sites</keyword>
+    <keyword>biota</keyword>
+    <keyword>environment</keyword>
+    <keyword>geoscientificInformation</keyword>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=74e6ef00-d133-4dc6-937b-90d145bf9c3a&amp;fname=Protected_sites-biogenetic.png</image>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=74e6ef00-d133-4dc6-937b-90d145bf9c3a&amp;fname=Protected_sites-biogenetic_s.png</image>
+    <datasetLang>eng</datasetLang>
+    <Constraints>CCGC/CCW 2010 and  Crown copyright. All rights reserved. Third parties seeking to re-use this dataset require a CCW licence. It allows reproduction, dissemination and re-use in any format or medium but only for non-commercial purposes, according to the terms and conditions of the Licence. Those seeking commercial re-use require a commercial licence available from the OS.</Constraints>
+    <geoBox>-6.165377179115289|51.05986660297646|-2.3305367024451726|53.741443736804015</geoBox>
+    <isHarvested>n</isHarvested>
+    <language>eng</language>
+    <defaultTitle>Protected sites: Biogenetic Reserves - GIS dataset</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>6</id>
+      <uuid>74e6ef00-d133-4dc6-937b-90d145bf9c3a</uuid>
+      <schema>iso19139</schema>
+      <createDate>2012-11-29T16:29:44</createDate>
+      <changeDate>2013-04-30T16:16:42</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>THE REGISTERED LANDSCAPES OF OUSTANDING HISTORIC INTEREST IN WALES &amp; REGISTERED LANDSCAPES OF SPECIAL HISTORIC INTEREST IN WALES</title>
+    <popularity>447</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <link>Protected_sites:historic_landscapes_areas|Historic Landscape Areas|../../srv/en/google.kml?uuid=d0667755-093f-4c71-ae9d-07940ef05b6e&amp;layers=Protected_sites:historic_landscapes_areas|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>Protected_sites:historic_landscapes_areas|Historic Landscape Areas|http://inspire.wales.gov.uk/maps/Protected_sites/wms?|OGC:WMS-1.3.0-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>||http://inspire.wales.gov.uk/maps/Protected_sites/wms?request=getCapabilities||text/plain</link>
+    <link>||http://inspire.wales.gov.uk/metadata?uuid=d0667755-093f-4c71-ae9d-07940ef05b6e||text/plain</link>
+    <responsibleParty>pointOfContact|metadata|Welsh Government|</responsibleParty>
+    <responsibleParty>pointOfContact|resource|CADW (The Historic Environment Service of the Welsh Government)|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>Cadw, the Countryside Council for Wales (CCW) and the four Welsh Archaeological Trusts have  been working in partnership on several projects which are aimed at improving our understanding of the historic landscape of Wales, at both the national and local levels. 
+
+In 1998 and 2001, as a first step towards raising the profile of historic landscapes in Wales, Cadw, CCW and ICOMOS (UK)(International Council on Monuments and Sites) published the two-volume Register of Landscapes of Historic Interest in Wales. This advisory and non-statutory document highlights what are considered to be the best examples of different types of historic landscape in Wales. However, the selection of areas for this Register does not reduce the importance of the rest of Wales’s rich historic landscape. A good practice guide explains how the Register should be used in assessing the effect of major developments on the historic landscape.
+
+This dataset comprises GIS polygon areas, however, there are privisos and advice regarding the appropriate use of this dataset (see USE CONSTRAINTS).  
+
+All planning enquiries that may effect a Historic Landscape Area should be directed to Cadw</abstract>
+    <keyword>CADW</keyword>
+    <keyword>Historic Environment (addition)</keyword>
+    <keyword>Historic Landscapes</keyword>
+    <keyword>Protected sites</keyword>
+    <keyword>environment</keyword>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=d0667755-093f-4c71-ae9d-07940ef05b6e&amp;fname=Protected_sites-historic_landscapes_areas.png</image>
+    <image>unknown|http://inspire.wales.gov.uk:80/metadata/srv/eng/resources.get?uuid=d0667755-093f-4c71-ae9d-07940ef05b6e&amp;fname=Protected_sites-historic_landscapes_areas_s.png</image>
+    <datasetLang>eng</datasetLang>
+    <Constraints>Copyright</Constraints>
+    <geoBox>-6.155462605227162|51.119691545615446|-2.6415049778562403|53.53067654656948</geoBox>
+    <isHarvested>n</isHarvested>
+    <language>eng</language>
+    <defaultTitle>THE REGISTERED LANDSCAPES OF OUSTANDING HISTORIC INTEREST IN WALES &amp; REGISTERED LANDSCAPES OF SPECIAL HISTORIC INTEREST IN WALES</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>1</id>
+      <uuid>d0667755-093f-4c71-ae9d-07940ef05b6e</uuid>
+      <schema>iso19139</schema>
+      <createDate>2012-11-29T16:29:41</createDate>
+      <changeDate>2013-03-21T15:13:27</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Better Woods for Wales</title>
+    <popularity>45</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <Constraints>otherRestrictions</Constraints>
+    <link>Protected_sites:forestry_bww|Better Woods for Wales. Data created by NRW|../../srv/en/google.kml?uuid={6fcd7227-4a16-4db0-95b2-b20e68759f48}&amp;layers=Protected_sites:forestry_bww|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>Protected_sites:forestry_bww|Better Woods for Wales. Data created by NRW|http://inspire.wales.gov.uk/maps/Protected_sites/wms?|OGC:WMS-1.3.0-http-get-map|application/vnd.ogc.wms_xml</link>
+    <responsibleParty>distributor|resource|Natural Resources Wales|</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|Forestry Commission|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <Constraints>Copyright</Constraints>
+    <Constraints>License</Constraints>
+    <abstract>Better Woodlands for Wales is the Natural Resources Wales (NRW) grant scheme designed scheme designed to meet the Woodland Strategy vision. The scheme has been developed in consultation with woodland owners and their agents as well as our partner organisations. As a result, the new scheme places greater emphasis on good quality woodland management and offers grants specially designed for Welsh woodlands. Grant aid is now based upon an approved long term management plan. This plan must meet the minimum standards under the UK Woodland Assurance Scheme. The scheme closed to new applications 31 March 2011.</abstract>
+    <keyword>Felling</keyword>
+    <keyword>Forest Management</keyword>
+    <keyword>clear felling</keyword>
+    <keyword>environment</keyword>
+    <keyword>farming</keyword>
+    <keyword>illegal</keyword>
+    <keyword>planning</keyword>
+    <keyword>planningCadastre</keyword>
+    <keyword>restocking</keyword>
+    <keyword>thinning</keyword>
+    <keyword>woodland</keyword>
+    <Constraints>no conditions apply</Constraints>
+    <geoBox>-5.670244|51.374153|-2.649851|53.435805</geoBox>
+    <isHarvested>n</isHarvested>
+    <language>eng</language>
+    <defaultTitle>Better Woods for Wales</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>43</id>
+      <uuid>{6fcd7227-4a16-4db0-95b2-b20e68759f48}</uuid>
+      <schema>iso19139</schema>
+      <createDate>2013-05-15T15:34:17</createDate>
+      <changeDate>2013-05-15T15:59:43</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>National Forest Estate Legal Boundaries - Wales</title>
+    <popularity>344</popularity>
+    <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+    <owner>1</owner>
+    <link>Protected_sites:national_forest_estate_legal_boundary_wales|National Forest Estate Legal Boundaries - Wales|../../srv/en/google.kml?uuid=3600fdeb-431f-4fb4-96cf-fdfdf28603f0&amp;layers=Protected_sites:national_forest_estate_legal_boundary_wales|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>Protected_sites:national_forest_estate_legal_boundary_wales|National Forest Estate Legal Boundaries - Wales|http://inspire.wales.gov.uk/maps/Protected_sites/wms?|OGC:WMS-1.3.0-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>||http://inspire.wales.gov.uk/maps/Protected_sites/wms?request=getCapabilities||text/plain</link>
+    <link>||http://inspire.wales.gov.uk/metadata?uuid=3600fdeb-431f-4fb4-96cf-fdfdf28603f0||text/plain</link>
+    <responsibleParty>pointOfContact|metadata|Welsh Government|</responsibleParty>
+    <responsibleParty>pointOfContact|resource|Natural Resources Wales|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>admin|Geography and Technology|Welsh Government|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>Legal Boundaries
+This layer shows the external legal boundaries of land within FC ownership. It does
+not show the internal deed boundaries.
+Each polygon has two primary attributes:
+COSTCENTRE · Cost Centre number
+COSTCENT_1 · Forest District name
+This dataset is a product of the Deeds Management System.
+© Crown copyright and database right 'year'.
+Ordnance Survey Licence number 100021242</abstract>
+    <keyword>Forestry</keyword>
+    <keyword>Legal Boundaries</keyword>
+    <keyword>Protected sites</keyword>
+    <keyword>environment</keyword>
+    <datasetLang>eng</datasetLang>
+    <Constraints>Formal Permission required for use</Constraints>
+    <geoBox>-5.892705591343667|51.23102255133412|-2.4727486421311125|53.59428748047497</geoBox>
+    <isHarvested>n</isHarvested>
+    <language>eng</language>
+    <defaultTitle>National Forest Estate Legal Boundaries - Wales</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>20</id>
+      <uuid>3600fdeb-431f-4fb4-96cf-fdfdf28603f0</uuid>
+      <schema>iso19139</schema>
+      <createDate>2012-11-29T16:29:46</createDate>
+      <changeDate>2013-04-30T16:58:28</changeDate>
+      <source>73f51679-8782-47f4-a907-740dcec52bc8</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+</response>
+

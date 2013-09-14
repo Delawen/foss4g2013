@@ -37,7 +37,7 @@
 		$("input#submit").click(function() {
 			if($('form#qservice')[0].checkValidity()) { 
 				$.ajax({
-			        url: '/geonetwork/srv/eng/q?fast=index',
+			        url: 'fake_geonetwork/example0/srv/eng/q?fast=index',
 			        type: 'get',
 				crossDomain: true,
 			        data: $('form#qservice').serialize(),
