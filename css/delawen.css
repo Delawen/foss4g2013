@@ -104,6 +104,13 @@ article.step div.indice.general {
 	height: 600px;
 }
 
+article.step div.indice img {
+	max-width: 120px;
+	max-height: 60px;
+	margin: auto;
+	display: block;
+}
+
 .center-every {
 	margin: auto;
 }
