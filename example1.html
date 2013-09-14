@@ -47,6 +47,9 @@
 			                   //Remove previous data
 			                   section.empty();
 			                   
+			                   var parser = new DOMParser();
+ 					   data = parser.parseFromString(data, "text/xml");
+			                   
 			                   var mds = $(data.getElementsByTagName("metadata"));
 			                   for(var i=0; i < mds.length; i++) {
 			                   	var e = mds[i];
